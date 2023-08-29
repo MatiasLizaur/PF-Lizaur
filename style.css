@@ -1,0 +1,896 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* comienza index.html */
+
+/* comienza header */
+
+header {
+    background-image: url(assets/img/hombre-con-guitarra.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 1100px;
+}
+
+.navbar {
+    height: 180px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+.img-navbar {
+    height: 100px;
+    width: auto;
+    margin-left: 80px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.ritmolive {
+    text-decoration: none;
+    color: red;
+}
+
+.jumbotron h1 {
+    padding-top: 200px;
+    margin-left: 140px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    display: flex;
+    justify-content: left;
+}
+
+.jumbotron p {
+    font-size: 30px;
+    color: lightgrey;
+    margin-bottom: 5px;
+    margin-left: 140px;
+}
+
+.h {
+    width: 85%;
+    margin-left: 140px;
+    margin-top: 300px;
+    background-color: lightgray;
+}
+
+.jumbotron h3 {
+    margin-left: 140px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.jumbotron section p {
+    font-size: 20px;
+    margin-left: 140px;
+}
+
+.p1 {
+    color: white !important;
+}
+
+/* finaliza header */
+
+/* comienza main */
+
+h2 {
+    display: flex;
+    justify-content: left;
+    padding-left: 140px;
+    padding-top: 30px;
+}
+
+.column {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.theweeknd {
+    background-image: url(assets/img/TheWeeknd.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: top;
+}
+
+.b-w {
+    font-size: 23px;
+    color: black;
+    text-decoration: none;
+}
+
+.tyler {
+    background-image: url(assets/img/tyler.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: top;
+}
+
+.t-t {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.l-left {
+    border: 5px solid rgba(0, 0, 0, 0.616);
+    border-radius: 5px;
+    background-image: url(assets/img/Monumental.jpg);
+    height: 400px;
+    display: flex;
+    background-position: center;
+}
+
+.l-right {
+    border: 5px solid rgba(0, 0, 0, 0.616);
+    border-radius: 5px;
+    background-image: url(assets/img/vorterix.jpg);
+    height: 400px;
+    display: flex;
+    background-position: center;
+}
+
+
+/* finaliza main */
+
+/* comienza footer */
+
+.footer {
+    color: white;
+    background-color: #2E3840;
+    height: 300px;
+    margin-top: 150px;
+}
+
+.soporte {
+    padding-top: 100px;
+    padding-left: 150px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.b-soporte {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding: 1px 10px;
+    border-radius: 5px;
+}
+
+.soporte p {
+    margin-right: 20px;
+}
+
+.redes-sociales {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.f-logo {
+    font-size: large;
+    margin-top: 90px;
+    margin-right: 130px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.s-l {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hf {
+    width: 88%;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+
+/* finaliza footer */
+
+
+
+/* comienza media queries  */
+
+@media only screen and (min-width: 0) and (max-width: 480px) {
+
+    /* comienza header index.html */
+
+    .navbar-collapse {
+        background-color: #2e384049;
+        width: 100%;
+        display: flex;
+        justify-content: center !important;
+        font-size: small;
+    }
+
+    .ritmolive {
+        font-size: 15px;
+    }
+
+    .img-navbar {
+        height: 30px;
+    }
+
+    .input-index {
+        width: 30px;
+    }
+
+    header {
+        background-image: url(assets/img/hombre-con-guitarra.jpg);
+        background-size: cover;
+        background-position: left;
+        height: 1000px;
+    }
+
+    .jumbotron h1 {
+        padding-top: 100px;
+        margin-left: 50px;
+        font-size: 30px;
+    }
+
+    .jumbotron p {
+        margin-left: 50px;
+        font-size: 20px;
+        color: rgb(173, 172, 172);
+    }
+
+    .h {
+        width: 80%;
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+
+    .jumbotron h3 {
+        font-size: 23px;
+        margin-left: 50px;
+    }
+
+    .jumbotron section p {
+        font-size: 18px;
+        margin-left: 50px;
+    }
+
+    /* finaliza header index.html */
+
+    /* comienza main index.html */
+
+    .titulo-principal {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 25px;
+        padding-top: 30px;
+    }
+
+    .principales {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .theweeknd {
+        background-image: url(assets/img/TheWeeknd.jpg);
+        height: 300px;
+        width: 100%;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .b-w {
+        font-size: medium;
+        color: black;
+        text-decoration: none;
+    }
+
+    .tyler {
+        background-image: url(assets/img/tyler.jpg);
+        height: 300px;
+        width: 100%;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .t-t {
+        margin-top: 30px;
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row {
+        padding: 45px;
+        gap: 5em;
+    }
+
+    /* finaliza main index.html */
+
+    /* comienza footer index.html */
+
+    .footer {
+        color: white;
+        background-color: #2E3840;
+        height: 600px;
+        margin-top: 150px;
+    }
+
+    .soporte {
+        margin-right: 5px;
+        padding-top: 100px;
+        padding-left: 5px;
+        font-size: small;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .b-soporte {
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        margin-bottom: 30px;
+        padding: 1px 10px;
+        border-radius: 5px;
+    }
+
+    .soporte p {
+        margin-right: 20px;
+    }
+
+    .redes-sociales {
+        margin-top: 25px;
+        margin-left: 35px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+    }
+
+    .f-logo {
+        margin-top: 60px;
+        margin-right: 160px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .s-l {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hf {
+        width: 88%;
+        margin-top: 50px;
+        margin-left: 28px;
+    }
+
+    /* finaliza footer index.html */
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+
+    /* comienza header index.html */
+
+    .navbar-collapse {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .ritmolive {
+        font-size: 13px;
+    }
+
+    .img-navbar {
+        height: 60px;
+        margin-left: 10px;
+    }
+
+    .input-index {
+        width: 30px;
+    }
+
+    header {
+        background-image: url(assets/img/hombre-con-guitarra.jpg);
+        background-size: cover;
+        background-position: left;
+        height: 1000px;
+    }
+
+    .jumbotron h1 {
+        padding-top: 100px;
+        margin-left: 50px;
+        font-size: 30px;
+    }
+
+    .jumbotron p {
+        margin-left: 50px;
+        font-size: 20px;
+        color: rgb(173, 172, 172);
+    }
+
+    .h {
+        width: 90%;
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+
+    .jumbotron h3 {
+        font-size: 23px;
+        margin-left: 50px;
+    }
+
+    .jumbotron section p {
+        font-size: 18px;
+        margin-left: 50px;
+    }
+
+    /* comienza main index.html */
+
+    .titulo-principal {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 25px;
+        padding-top: 30px;
+    }
+
+    .principales {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .theweeknd {
+        background-image: url(assets/img/TheWeeknd.jpg);
+        height: 300px;
+        width: 90%;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .b-w {
+        font-size: medium;
+        color: black;
+        text-decoration: none;
+    }
+
+    .tyler {
+        background-image: url(assets/img/tyler.jpg);
+        height: 300px;
+        width: 90%;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .t-t {
+        margin-top: 30px;
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row {
+        padding: 45px;
+        gap: 5em;
+    }
+
+    /* comienza footer index.html */
+
+    .footer {
+        color: white;
+        background-color: #2E3840;
+        height: 600px;
+        margin-top: 150px;
+    }
+
+    .soporte {
+        margin-right: 5px;
+        padding-top: 100px;
+        padding-left: 5px;
+        font-size: small;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .b-soporte {
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        margin-bottom: 30px;
+        padding: 1px 10px;
+        border-radius: 5px;
+    }
+
+    .soporte p {
+        margin-right: 20px;
+    }
+
+    .redes-sociales {
+        margin-top: 25px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+    }
+
+    .f-logo {
+        margin-top: 60px;
+        margin-right: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .s-l {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hf {
+        width: 88%;
+        margin-top: 50px;
+        margin-left: 28px;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* comienza header index.html */
+
+    .navbar-collapse {
+        width: 100%;
+        font-size: medium;
+    }
+
+    .ritmolive {
+        font-size: 18px;
+    }
+
+    .img-navbar {
+        height: 70px;
+        margin-left: 10px;
+    }
+
+    .input-index {
+        width: 30px;
+    }
+
+    header {
+        background-image: url(assets/img/hombre-con-guitarra.jpg);
+        background-size: cover;
+        background-position: bottom;
+        height: 800px;
+    }
+
+    .jumbotron h1 {
+        padding-top: 100px;
+        margin-left: 50px;
+        font-size: 30px;
+    }
+
+    .jumbotron p {
+        margin-left: 50px;
+        font-size: 20px;
+        color: rgb(173, 172, 172);
+    }
+
+    .h {
+        width: 90%;
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+
+    .jumbotron h2 {
+        font-size: 23px;
+        margin-left: 50px;
+    }
+
+    .jumbotron section p {
+        font-size: 18px;
+        margin-left: 50px;
+    }
+
+    /* comienza main index.html */
+
+    .titulo-principal {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 25px;
+        padding-top: 30px;
+    }
+
+    .principales {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .theweeknd {
+        background-image: url(assets/img/TheWeeknd.jpg);
+        height: 300px;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .b-w {
+        font-size: medium;
+        color: black;
+        text-decoration: none;
+    }
+
+    .tyler {
+        background-image: url(assets/img/tyler.jpg);
+        height: 300px;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .t-t {
+        margin-top: 30px;
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row {
+        padding: 45px;
+        gap: 5em;
+    }
+
+    /* comienza footer index.html */
+
+    .footer {
+        color: white;
+        background-color: #2E3840;
+        height: 600px;
+        margin-top: 150px;
+    }
+
+    .soporte {
+        margin-left: 50px;
+        padding-top: 100px;
+        padding-left: 5px;
+        font-size: small;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .b-soporte {
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        margin-bottom: 30px;
+        padding: 1px 10px;
+        border-radius: 5px;
+    }
+
+    .soporte p {
+        margin-right: 20px;
+    }
+
+    .redes-sociales {
+        margin-top: 25px;
+        margin-left: 45px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+    }
+
+    .f-logo {
+        margin-top: 90px;
+        margin-right: 150px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .s-l {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hf {
+        width: 88%;
+        margin-top: 50px;
+        margin-left: 28px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1460px) {
+    .navbar-collapse {
+        width: 100%;
+        font-size: medium;
+    }
+
+    .ritmolive {
+        font-size: 18px;
+    }
+
+    .img-navbar {
+        height: 70px;
+        margin-left: 10px;
+    }
+
+    .input-index {
+        width: 30px;
+    }
+
+    header {
+        background-image: url(assets/img/hombre-con-guitarra.jpg);
+        background-size: cover;
+        background-position: bottom;
+        height: 800px;
+    }
+
+    .jumbotron h1 {
+        padding-top: 100px;
+        margin-left: 50px;
+        font-size: 30px;
+    }
+
+    .jumbotron p {
+        margin-left: 50px;
+        font-size: 20px;
+        color: rgb(173, 172, 172);
+    }
+
+    .h {
+        width: 90%;
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+
+    .jumbotron h3 {
+        font-size: 23px;
+        margin-left: 50px;
+    }
+
+    .jumbotron section p {
+        font-size: 18px;
+        margin-left: 50px;
+    }
+
+    /* comienza main index.html */
+
+    .titulo-principal {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 25px;
+        padding-top: 30px;
+    }
+
+    .principales {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .theweeknd {
+        background-image: url(assets/img/TheWeeknd.jpg);
+        height: 300px;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .b-w {
+        font-size: medium;
+        color: black;
+        text-decoration: none;
+    }
+
+    .tyler {
+        background-image: url(assets/img/tyler.jpg);
+        height: 300px;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .t-t {
+        margin-top: 30px;
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row {
+        padding: 45px;
+        gap: 5em;
+    }
+
+    /*comienza footer index.html */
+
+    .footer {
+        color: white;
+        background-color: #2E3840;
+        height: 600px;
+        margin-top: 150px;
+    }
+
+    .soporte {
+        margin-left: 50px;
+        padding-top: 100px;
+        padding-left: 5px;
+        font-size: small;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .b-soporte {
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        margin-bottom: 30px;
+        padding: 1px 10px;
+        border-radius: 5px;
+    }
+
+    .soporte p {
+        margin-right: 20px;
+    }
+
+    .redes-sociales {
+        margin-top: 25px;
+        margin-left: 45px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+    }
+
+    .f-logo {
+        margin-top: 90px;
+        margin-right: 150px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .s-l {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hf {
+        width: 88%;
+        margin-top: 50px;
+        margin-left: 28px;
+    }
+
+
+}

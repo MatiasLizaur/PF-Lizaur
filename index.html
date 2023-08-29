@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BS 5.1 inicia -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- BS 5.1 finaliza -->
+    <link rel="stylesheet" href="style.css">
+    <title>RitmoLive</title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/logo.jpg" alt="logo" class="img-navbar">
+                    <span class="ritmolive">RitmoLive</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tendencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Teatro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Soporte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Iniciar Sesion/Registrarse</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--jumbotron inicia-->
+
+        <div class="jumbotron text-white rounded">
+            <h1>Bienvenidos a RitmoLive</h1>
+            <p>Tickets para tus recitales favoritos.</p>
+            <p> En un mismo lugar. Comencemos.</p>
+            <hr class="h">
+            <h3>Recitales cerca de Mar del Plata, AR</h3>
+            <section>
+                <p class="p1">No hay recitales disponibles</p>
+                <p>Prueba buscando un artista especifico en la barra de búsqueda</p>
+            </section>
+        </div>
+
+        <!--jumbotron finaliza-->
+
+    </header>
+
+    <!--inicia main-->
+
+    <main>
+
+        <!--Recitales principales-->
+
+        <h2 class="titulo-principal"><u>Principales</u></h2>
+
+        <div class="principales">
+
+        <div class="container-fluid">
+            <div class="column">
+                <div class="theweeknd col-sm-6"></div>
+                    <section class="t-t">
+                        <a href="./pages/theweeknd.html" class="b-w"><strong>TheWeeknd</strong></a>
+                        <p>3 de Diciembre · Estadio Antonio V. Liberti</p>
+                        <strong><p>Desde $50.000<p></strong>
+                    </section>
+            </div>
+        </div>
+
+
+        <div class="container-fluid">
+            <div class="column">
+                <div class="tyler col-sm-6"></div>
+                    <section class="t-t">
+                        <h3>Tyler, The Creator</h3>
+                        <p>6 de Diciembre · Estadio Antonio V. Liberti</p>
+                        <strong><p>Desde $30.000</p></strong>
+                    </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- lugares -->
+
+        <h2 class="titulo-principal"><u>Ver eventos en:</u></h2>
+        <div class="container-fluid">
+            <div class="row">
+                    <div class="l-left col-sm-4"></div>
+                    <div class="l-right col-sm-4"></div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- finaliza main -->
+
+    <!-- comienza footer -->
+
+    <footer class=" footer py-1 mt-8">
+
+        <div class="s-l">
+
+            <div class="soporte">
+                <p><strong>¿Necesitas ayuda?</strong></p>
+                <a href="./pages/soporte.html" class="b-soporte">Soporte</a>
+            </div>
+
+            <div class="f-logo">
+                <a href="index.html" class="ritmolive"><img src="assets/img/logo.jpg" alt="logo" height="50" width="auto"><span>RitmoLive</span></a>
+            </div>
+
+        </div>
+
+        <hr class="hf">
+
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/" class="redes-sociales"><img src="assets/img/facebook.png" alt="facebook" width="30"></a>
+            <a href="https://www.instagram.com/" class="redes-sociales"><img src="assets/img/instagram.png" alt="instagram" width="30"></a>
+            <a href="https://twitter.com/home" class="redes-sociales"><img src="assets/img/twitter.png" alt="twitter" width="30"></a>
+        </div>
+
+
+    </footer>
+
+    <!-- finaliza footer -->
+
+
+
+    <!-- Bundle BS inicia-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Bundle BS finaliza -->
+</body>
+
+</html>
+
+
+<!-- Barra de busqueda-->
+
+<!-- <input type="text" placeholder="Buscar artistas" class="input-index">
+            <button class="nav-button">Buscar</button> -->
+
+<!--Imagen de fondo-->
+
+<!-- <div class="imagen-de-fondo">
+            <img src="assets/img/hombre-con-guitarra.jpg" alt="hombre-con-guitarra" height="767" width="1440">
+            <h1>Bienvenidos a RitmoLive</h1>
+            <p>Tickets para tus recitales favoritos.</p>
+            <p>En un mismo lugar. Comencemos.</p>
+            <hr />
+            <h3>Recitales cerca de Mar del Plata, AR</h3>
+            <p>No hay recitales disponibles</p>
+            <p>Prueba buscando un artista específico en la barra de búsqueda</p>
+        </div> -->
+
+
+<!-- <div class="barra-navegadora">
+            <nav>
+                <ul>
+                    <div class="logo-bar">
+                    <li>
+                        <a href="index.html" class="logo"><img src="assets/img/logo.jpg" alt="logo" height="60px" width="auto"><span class="ritmo">RitmoLive </span></a></li>
+                    <li></div>
+                        <div class="input">
+                        <input type="text" placeholder="Encontrá a tus artistas favoritos" class="input-index">
+                        <button>Buscar</button>
+                    </li></div>
+                    <div class="paginas-h d-flex justify-content-end">
+                        <li><a href="pages/theweeknd.html" class="link">TENDENCIA</a></li>
+                        <li><a href="pages/teatro.html" class="link">TEATRO</a></li>
+                        <li><a href="pages/soporte.html" class="link">SOPORTE</a></li>
+                        <li><a href="pages/iniciarsesion.html" class="link">INICIAR SESIÓN/REGISTRARSE</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div> -->
+
+<!--nav bar comienza-->
+<!-- <nav class="navbar navbar-expand-sm navbar-dark">
+
+            <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="assets/img/logo.jpg" alt="logo" class="img-navbar">
+                    <span>RitmoLive</span></a>
+                    
+                    <input type="text" placeholder="Encontrá a tus artistas favoritos" class="input-index">
+                    <button class="nav-button">Buscar</button>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/theweeknd.html">TENDENCIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/teatro.html">TEATRO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/soporte.html">SOPORTE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/iniciarsesion.html">INICIAR SESION/REGISTRARSE</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header> -->
