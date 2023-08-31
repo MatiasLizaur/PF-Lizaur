@@ -52,6 +52,8 @@ header {
 }
 
 .jumbotron p {
+    display: flex;
+    justify-content: left;
     font-size: 30px;
     color: lightgrey;
     margin-bottom: 5px;
@@ -211,7 +213,118 @@ h2 {
 
 /* finaliza footer */
 
+/* comienza theweeknd.html */
 
+/* comienza header */
+
+.h-tw{
+    background-image: url(assets/img/TheWeeknd2.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 800px;
+}
+
+/* finaliza header */
+
+/* comienza main */
+
+.dropdown{
+    margin: 40px 40px 40px 40px;
+}
+
+.d-menus{
+    background-color: #2e384049;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    color: black;
+    background-color: white;
+    border-color: black;
+    width: 300px;
+    padding: 15px;
+    padding-left: 10px;
+}
+
+.c-dm{
+    background-color: rgb(214, 44, 44);
+    color: white;
+    margin: 40px 40px 40px 40px;
+    width: 200px;
+    font-size: large;
+    border-radius: 5px;
+}
+
+.l-izquierdo h1, p, .p, h4, .rtw, .rtw-s{
+    display: flex;
+    justify-content: center;
+}
+
+.l-izquierdo h1{
+    color: rgb(204, 14, 14);
+    margin-bottom: 50px;
+    font-weight: bolder;
+}
+
+.l-izquierdo h4{
+    color: rgb(192, 9, 9);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+}
+
+.l-izquierdo p{
+    display: flex;
+    justify-content: stretch;
+    margin-left: 70px;
+    margin-right: 60px;
+    padding: 5px;
+}
+
+.l-izquierdo .rtw{
+    margin-top: 50px;
+}
+
+.l-izquierdo .rtw-s{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.l-izquierdo .b-rtw{
+    background-color: rgba(190, 50, 50, 0.815);
+    border-radius: 5px;
+    width: 110px;
+    padding: 5px;
+}
+
+
+.l-derecho .t-monu{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.iframes{
+    display: flex;
+    flex-direction: column;
+}
+
+.g-maps{
+    width: 350px;
+    height: 300px;
+    margin-bottom: 60px;
+}
+
+.v-yt{
+    width: 700px;
+    height: 450px;
+}
+
+/* termina main */
 
 /* comienza media queries  */
 
@@ -367,7 +480,6 @@ h2 {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-
     }
 
     .f-logo {
@@ -390,8 +502,147 @@ h2 {
 
     /* finaliza footer index.html */
 
-}
+    /* comienza header theweeknd.html */
 
+    .h-tw{
+        background-image: url(assets/img/TheWeeknd2.jpg);
+        background-size: cover;
+        background-position: top;
+        height: 800px;
+        margin-bottom: 0px;
+    }
+
+    /* comienza main theweeknd.html */
+
+    .dropdown{
+        margin: 40px 40px 40px 40px;
+    }
+
+    #dropdown1{
+        margin-top: 300px;
+    }
+
+    .d-menus{
+        background-color: #2e384049;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn{
+        color: black;
+        background-color: white;
+        border-color: black;
+        width: 200px;
+        padding: 5px;
+        padding-left: 10px;
+    }
+    
+    .c-dm{
+        background-color: rgb(214, 44, 44);
+        color: white;
+        padding: 5px 5px;
+        margin-bottom: 300px;
+        width: 200px;
+        font-size: large;
+        border-radius: 5px;
+    }
+
+    .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .l-izquierdo h1{
+        color: rgb(204, 14, 14);
+        margin-bottom: 50px;
+        margin-left: 35px;
+        font-weight: bolder;
+    }
+    
+    .l-izquierdo h4{
+        color: rgb(192, 9, 9);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-left: 35px;
+        font-weight: bolder;
+    }
+    
+    .l-izquierdo p{
+        display: flex;
+        justify-content: center;
+        margin-left: 70px;
+        padding: 5px;
+    }
+    
+    .l-izquierdo .rtw{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    
+    .l-izquierdo .rtw-s{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+    
+    .l-izquierdo .b-rtw{
+        background-color: rgba(190, 50, 50, 0.815);
+        border-radius: 5px;
+        width: 100px;
+        padding: 5px;
+    }
+
+    .l-derecho .t-monu{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+    
+    .iframes{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .g-maps{
+        width: 90%;
+        height: 300px;
+        margin-bottom: 60px;
+    }
+    
+    .v-yt{
+        width: 100%;
+        height: 450px;
+    }
+
+    /* comienza footer theweeknd.html */
+
+    .redes-sociales {
+        margin-top: 25px;
+        margin-right: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .f-logo {
+        margin-top: 60px;
+        margin-left: 10px;
+        width: 65%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .hf {
+        width: 88%;
+        margin-top: 50px;
+        margin-left: 28px;
+    }
+
+}
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
 
@@ -560,7 +811,255 @@ h2 {
         margin-left: 28px;
     }
 
+    /* comienza header theweeknd.html */
 
+    .h-tw{
+        background-image: url(assets/img/TheWeeknd2.jpg);
+        background-size: cover;
+        background-position: top;
+        height: 800px;
+        margin-bottom: 0px;
+    }
+
+    /* finaliza header theweeknd.html */
+
+    /* comienza main theweeknd.html */
+
+    .dropdown{
+        margin: 40px 40px 40px 40px;
+    }
+
+    #dropdown1{
+        margin-top: 300px;
+    }
+
+    .d-menus{
+        background-color: #2e384049;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn{
+        color: black;
+        background-color: white;
+        border-color: black;
+        width: 200px;
+        padding: 5px;
+        padding-left: 10px;
+    }
+    
+    .c-dm{
+        background-color: rgb(214, 44, 44);
+        color: white;
+        padding: 5px 5px;
+        margin-bottom: 300px;
+        width: 200px;
+        font-size: large;
+        border-radius: 5px;
+    }
+
+    .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .l-izquierdo h1{
+        color: rgb(204, 14, 14);
+        margin-bottom: 50px;
+        margin-left: 35px;
+        font-weight: bolder;
+    }
+    
+    .l-izquierdo h4{
+        color: rgb(192, 9, 9);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-left: 80px;
+        font-weight: bolder;
+    }
+    
+    .l-izquierdo p{
+        display: flex;
+        justify-content: left;
+        width: 80%;
+        margin-left: 70px;
+        padding: 5px;
+    }
+    
+    .l-izquierdo .rtw{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    
+    .l-izquierdo .rtw-s{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 1em;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+    
+    .l-izquierdo .b-rtw{
+        background-color: rgba(190, 50, 50, 0.815);
+        border-radius: 5px;
+        width: 100px;
+        padding: 5px;
+    }
+
+    .l-derecho .t-monu{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+    
+    .iframes{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .g-maps{
+        width: 90%;
+        height: 300px;
+        margin-bottom: 60px;
+    }
+    
+    .v-yt{
+        width: 100%;
+        height: 450px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    /* comienza main theweeknd.html */
+
+    .dropdown{
+        margin: 40px 40px 40px 40px;
+    }
+
+    #dropdown1{
+        margin-top: 300px;
+    }
+
+    .d-menus{
+        background-color: #2e384049;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn{
+        color: black;
+        background-color: white;
+        border-color: black;
+        width: 200px;
+        padding: 5px;
+        padding-left: 10px;
+    }
+    
+    .c-dm{
+        background-color: rgb(214, 44, 44);
+        color: white;
+        margin-bottom: 300px;
+        width: 200px;
+        font-size: large;
+        border-radius: 5px;
+    }
+
+    .row{
+        margin-left: 70px;
+        display: flex;
+        justify-content: left;
+    }
+
+    .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .l-izquierdo h1{
+        color: rgb(204, 14, 14);
+        width: 450px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+    
+    .l-izquierdo h4{
+        color: rgb(192, 9, 9);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-left: 35px;
+        width: 350px;
+        font-size: large;
+        font-weight: bolder;
+    }
+    
+    .l-izquierdo p{
+        display: flex;
+        justify-content: left;
+        font-size: medium;
+        width: 350px;
+        margin-left: 10px;
+        padding: 5px;
+    }
+    
+    .l-izquierdo .rtw{
+        width: 340px;
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+    
+    .l-izquierdo .rtw-s{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 60px;
+        margin-left: 150px;
+    }
+    
+    .l-izquierdo .b-rtw{
+        background-color: rgba(190, 50, 50, 0.815);
+        border-radius: 5px;
+        width: 100px;
+        padding: 5px;
+    }
+
+    .l-derecho .t-monu{
+        width: 350px;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+    
+    .iframes{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .g-maps{
+        width: 180%;
+        height: 300px;
+        margin-bottom: 60px;
+    }
+    
+    .v-yt{
+        width: 200%;
+        height: 450px;
+    }
+
+    /* comienza footer theweeknd.html */
+
+    .soporte p {
+        margin-bottom: 30px;
+        margin-right: 20px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -720,6 +1219,155 @@ h2 {
     .s-l {
         display: flex;
         flex-direction: row;
+    }
+
+    .hf {
+        width: 88%;
+        margin-top: 50px;
+        margin-left: 28px;
+    }
+
+    /* comienza main theweeknd.html */
+
+    .dropdown{
+        margin: 40px 40px 40px 40px;
+    }
+
+    #dropdown1{
+        margin-top: 300px;
+    }
+
+    .d-menus{
+        background-color: #2e384049;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn{
+        color: black;
+        background-color: white;
+        border-color: black;
+        width: 200px;
+        padding: 5px;
+        padding-left: 10px;
+    }
+    
+    .c-dm{
+        background-color: rgb(214, 44, 44);
+        color: white;
+        padding: 5px 5px;
+        margin-bottom: 300px;
+        width: 200px;
+        font-size: large;
+        border-radius: 5px;
+    }
+
+    .row{
+        margin-left: 70px;
+        display: flex;
+        justify-content: left;
+    }
+
+    .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s{
+        display: flex;
+        justify-content: center;
+        width: 500px;
+    }
+    
+    .l-izquierdo h1{
+        color: rgb(204, 14, 14);
+        margin-bottom: 50px;
+        margin-left: 70px;
+        font-weight: bolder;
+    }
+    
+    .l-izquierdo h4{
+        color: rgb(192, 9, 9);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-left: 90px;
+        font-weight: bolder;
+    }
+    
+    .l-izquierdo p{
+        display: flex;
+        justify-content: center;
+
+        margin-left: 80px;
+        padding: 5px;
+    }
+    
+    .l-izquierdo .rtw{
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    
+    .l-izquierdo .rtw-s{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 60px;
+        margin-left: 60px;
+    }
+    
+    .l-izquierdo .b-rtw{
+        background-color: rgba(190, 50, 50, 0.815);
+        border-radius: 5px;
+        width: 100px;
+        padding: 5px;
+    }
+
+    .l-derecho .t-monu{
+        margin-left: 60px;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+    
+    .iframes{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .g-maps{
+        margin-left: 80px;
+        width: 450px;
+        height: 300px;
+        margin-bottom: 60px;
+    }
+    
+    .v-yt{
+        margin-left: 20px;
+        width: 180%;
+        height: 450px;
+    }
+
+    /* comienza footer theweeknd.html */
+
+    .soporte {
+        padding-top: 100px;
+        padding-left: 5px;
+        font-size: small;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .soporte p{
+        width: 150px;
+    }
+
+    .f-logo {
+        margin-top: 60px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .s-l {
+        display: flex;
+        flex-direction: column;
     }
 
     .hf {
@@ -891,6 +1539,104 @@ h2 {
         margin-top: 50px;
         margin-left: 28px;
     }
-
+    
+    /* comienza main theweeknd.html */
+    
+    .dropdown{
+        margin: 40px 40px 40px 40px;
+    }
+    
+    .d-menus{
+        background-color: #2e384049;
+        height: 140px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .btn{
+        color: black;
+        background-color: white;
+        border-color: black;
+        width: 200px;
+        padding: 15px;
+        padding-left: 10px;
+    }
+    
+    .c-dm{
+        background-color: rgb(214, 44, 44);
+        color: white;
+        margin: 40px 40px 40px 40px;
+        width: 200px;
+        font-size: large;
+        border-radius: 5px;
+    }
+    
+    .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .l-izquierdo h1{
+        color: rgb(204, 14, 14);
+        margin-bottom: 50px;
+        font-weight: bolder;
+    }
+    
+    .l-izquierdo h4{
+        color: rgb(192, 9, 9);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: large;
+        font-weight: bolder;
+    }
+    
+    .l-izquierdo p{
+        display: flex;
+        justify-content: stretch;
+        margin-left: 70px;
+        margin-right: 60px;
+        padding: 5px;
+    }
+    
+    .l-izquierdo .rtw{
+        margin-top: 50px;
+    }
+    
+    .l-izquierdo .rtw-s{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 60px;
+    }
+    
+    .l-izquierdo .b-rtw{
+        background-color: rgba(190, 50, 50, 0.815);
+        border-radius: 5px;
+        width: 110px;
+        padding: 5px;
+    }
+    
+    
+    .l-derecho .t-monu{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+    
+    .iframes{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .g-maps{
+        width: 500px;
+        height: 350px;
+        margin-bottom: 60px;
+    }
+    
+    .v-yt{
+        width: 110%;
+        height: 450px;
+    }
 
 }
