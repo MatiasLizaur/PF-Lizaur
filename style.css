@@ -412,6 +412,167 @@ h2 {
 
 /* finaliza main teatro.html */
 
+/* comienza soporte.html */
+
+/* comienza header soporte.html */
+
+.h-s{
+    background-color: #F9DBBB;
+    height: 550px;
+}
+
+.busqueda-s{
+    width: 100%;
+    margin-left: 330px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.busqueda-s h3{
+    font-weight: bold;
+}
+
+.container-s{
+    height: 42px;
+    margin-top: 20px;
+    width: 1200px;
+    border: 2px solid ;
+    padding: 0px 0px;
+    border-radius: 50px;
+}
+
+.elements-container-s{
+    background-color: white;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.s-button{
+    background-color: rgba(0, 0, 0, 0.877);
+    color: white;
+    border-radius: 5px;
+    width: 120px;
+}
+
+.search{
+    border: none;
+    height: 100%;
+    width: 100%;
+    margin-right: 700px;
+    padding: 0px 5px;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #424242;
+    font-weight: 500;
+}
+
+.busqueda-s p{
+    display: flex;
+    justify-content: left;
+    margin-left: 8px;
+}
+
+/* finaliza header soporte.html */
+
+/* comienza main soporte.html */
+
+#l-abajo{
+    margin-top: 150px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px; 
+}
+.s-i{
+    margin-left: 250px;
+    padding: 12px 20px 25px 20px; 
+    border: 3px solid #000;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.s-i h4{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.clientes{
+    margin-left: 200px;
+    margin-top: 150px;
+    width: 80%;
+    border: 3px solid #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10em;
+}
+
+.c-a{
+    padding-top: 150px;
+    padding-left: 140px;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    flex-direction: column;
+}
+
+.c-a h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.c-a p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.img-c{
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-right: 100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: right;
+}
+
+.c-a button{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+    background-color: #F9DBBB;
+    border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+}
+
+/* finaliza main soporte.html */
+
+/* comienza footer soporte.html */
+
+.s-l {
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes-sociales {
+    height: 30px;
+    margin-top: 55px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/* finaliza footer soporte.html */
 
 
 /* comienza media queries  */
