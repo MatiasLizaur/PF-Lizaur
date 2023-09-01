@@ -689,6 +689,16 @@ h2 {
     font-size: x-large;
 }
 
+/* comienza footer iniciar sesion */
+
+.footer-ini{
+    color: white;
+    background-color: #2E3840;
+    height: 300px;
+}
+
+/* finaliza footer iniciar sesion */
+
 
 /* comienza media queries  */
 
