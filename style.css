@@ -1,2016 +1,1754 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 /* font-family: 'Montserrat', sans-serif; */
-
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* comienza index.html */
-
 /* comienza header */
-
-.h-i{
-    background-image: url(assets/img/hombre-con-guitarra.jpg);
-    background-size: cover;
-    background-position: bottom;
-    height: 1100px;
+.h-i {
+  background-image: url(assets/img/hombre-con-guitarra.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 1100px;
 }
 
 .navbar {
-    height: 180px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.37);
+  height: 180px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.37);
 }
 
 .img-navbar {
-    height: 100px;
-    width: auto;
-    margin-left: 80px;
+  height: 100px;
+  width: auto;
+  margin-left: 80px;
 }
 
 .nav-link {
-    color: white !important;
+  color: white !important;
 }
 
 .ritmolive {
-    text-decoration: none;
-    color: red;
+  text-decoration: none;
+  color: red;
 }
 
 .jumbotron h1 {
-    padding-top: 200px;
-    margin-left: 140px;
-    margin-bottom: 20px;
-    font-size: 50px;
-    display: flex;
-    justify-content: left;
+  padding-top: 200px;
+  margin-left: 140px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  display: flex;
+  justify-content: left;
 }
 
 .jumbotron p {
-    display: flex;
-    justify-content: left;
-    font-size: 30px;
-    color: lightgrey;
-    margin-bottom: 5px;
-    margin-left: 140px;
+  display: flex;
+  justify-content: left;
+  font-size: 30px;
+  color: lightgrey;
+  margin-bottom: 5px;
+  margin-left: 140px;
 }
 
 .h {
-    width: 85%;
-    margin-left: 140px;
-    margin-top: 300px;
-    background-color: lightgray;
+  width: 85%;
+  margin-left: 140px;
+  margin-top: 300px;
+  background-color: lightgray;
 }
 
 .jumbotron h3 {
-    margin-left: 140px;
-    margin-top: 50px;
-    margin-bottom: 30px;
+  margin-left: 140px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .jumbotron section p {
-    font-size: 20px;
-    margin-left: 140px;
+  font-size: 20px;
+  margin-left: 140px;
 }
 
 .p1 {
-    color: white !important;
+  color: white !important;
 }
 
 /* finaliza header */
-
 /* comienza main */
-
 h2 {
-    display: flex;
-    justify-content: left;
-    padding-left: 140px;
-    padding-top: 30px;
+  display: flex;
+  justify-content: left;
+  padding-left: 140px;
+  padding-top: 30px;
 }
 
 .column {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .theweeknd {
-    background-image: url(assets/img/TheWeeknd.jpg);
-    height: 500px;
-    background-size: cover;
-    background-position: top;
+  background-image: url(assets/img/TheWeeknd.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: top;
 }
 
 .b-w {
-    font-size: 23px;
-    color: black;
-    text-decoration: none;
+  font-size: 23px;
+  color: black;
+  text-decoration: none;
 }
 
 .tyler {
-    background-image: url(assets/img/tyler.jpg);
-    height: 500px;
-    background-size: cover;
-    background-position: top;
+  background-image: url(assets/img/tyler.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: top;
 }
 
 .t-t {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .row {
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-evenly;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .l-left {
-    border: 5px solid rgba(0, 0, 0, 0.616);
-    border-radius: 5px;
-    background-image: url(assets/img/Monumental.jpg);
-    height: 400px;
-    display: flex;
-    background-position: center;
+  border: 5px solid rgba(0, 0, 0, 0.616);
+  border-radius: 5px;
+  background-image: url(assets/img/Monumental.jpg);
+  height: 400px;
+  display: flex;
+  background-position: center;
 }
 
 .l-right {
-    border: 5px solid rgba(0, 0, 0, 0.616);
-    border-radius: 5px;
-    background-image: url(assets/img/vorterix.jpg);
-    height: 400px;
-    display: flex;
-    background-position: center;
+  border: 5px solid rgba(0, 0, 0, 0.616);
+  border-radius: 5px;
+  background-image: url(assets/img/vorterix.jpg);
+  height: 400px;
+  display: flex;
+  background-position: center;
 }
 
-
 /* finaliza main */
-
 /* comienza footer */
-
 .footer {
-    color: white;
-    background-color: #2E3840;
-    height: 300px;
-    margin-top: 150px;
+  color: white;
+  background-color: #2E3840;
+  height: 300px;
+  margin-top: 150px;
 }
 
 .soporte {
-    padding-top: 100px;
-    padding-left: 150px;
-    font-size: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
+  padding-top: 100px;
+  padding-left: 150px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
 }
 
 .b-soporte {
-    color: black;
-    background-color: white;
-    text-decoration: none;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    padding: 1px 10px;
-    border-radius: 5px;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 1px 10px;
+  border-radius: 5px;
 }
 
 .soporte p {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .redes-sociales {
-    margin-right: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .f-logo {
-    font-size: large;
-    margin-top: 100px;
-    margin-right: 130px;
-    display: flex;
-    justify-content: flex-end;
+  font-size: large;
+  margin-top: 100px;
+  margin-right: 130px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .s-l {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .hf {
-    width: 88%;
-    margin-top: 50px;
-    margin-left: 140px;
+  width: 88%;
+  margin-top: 50px;
+  margin-left: 140px;
 }
 
 /* finaliza footer */
-
 /* comienza theweeknd.html */
-
 /* comienza header */
+.h-tw {
+  background-image: url(assets/img/TheWeeknd2.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 800px;
+}
 
-.h-tw{
+/* finaliza header */
+/* comienza main */
+.dropdown {
+  margin: 40px 40px 40px 40px;
+}
+
+.d-menus {
+  background-color: rgba(46, 56, 64, 0.2862745098);
+  height: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  color: black;
+  background-color: white;
+  border-color: black;
+  width: 300px;
+  padding: 15px;
+  padding-left: 10px;
+}
+
+.c-dm {
+  background-color: rgb(214, 44, 44);
+  color: white;
+  margin: 40px 40px 40px 40px;
+  width: 200px;
+  font-size: large;
+  border-radius: 5px;
+}
+
+.l-izquierdo h1, p, .p, h4, .rtw, .rtw-s {
+  display: flex;
+  justify-content: center;
+}
+
+.l-izquierdo h1 {
+  color: rgb(204, 14, 14);
+  margin-bottom: 50px;
+  font-weight: bolder;
+}
+
+.l-izquierdo h4 {
+  color: rgb(192, 9, 9);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: bolder;
+}
+
+.l-izquierdo p {
+  display: flex;
+  justify-content: stretch;
+  margin-left: 70px;
+  margin-right: 60px;
+  padding: 5px;
+}
+
+.l-izquierdo .rtw {
+  margin-top: 50px;
+}
+
+.l-izquierdo .rtw-s {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+.l-izquierdo .b-rtw {
+  background-color: rgba(190, 50, 50, 0.815);
+  border-radius: 5px;
+  width: 110px;
+  padding: 5px;
+}
+
+.l-derecho .t-monu {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.iframes {
+  display: flex;
+  flex-direction: column;
+}
+
+.g-maps {
+  width: 350px;
+  height: 300px;
+  margin-bottom: 60px;
+}
+
+.v-yt {
+  width: 700px;
+  height: 450px;
+}
+
+/* termina main */
+/* comienza teatro.html */
+/* comienza header */
+.h-te {
+  background-color: rgba(0, 0, 0, 0.897);
+}
+
+.img-banner {
+  background-image: url(assets/img/teatro.jpg);
+  background-size: cover;
+  background-position: left;
+  height: 800px;
+  filter: blur(5px);
+}
+
+.img-vort {
+  height: 300px;
+  width: 400px;
+}
+
+.txt-banner {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  width: 45%;
+  padding: 45px 0;
+  text-align: center;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-weight: bold;
+  border: 10px inset #fff;
+}
+
+/* comienza main teatro.html */
+.b-i {
+  margin: 140px 0px 100px 50px;
+  margin-top: 140px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.b-i-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.b-d {
+  margin: 140px 0px 100px 50px;
+  margin-top: 140px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.b-i-1 h3 {
+  font-weight: bold;
+}
+
+.b-i-1 h3, p {
+  margin-top: 10px;
+}
+
+.l-derecho-teatro {
+  margin-top: 100px;
+  font-size: 24px;
+}
+
+.l-derecho-teatro h2 {
+  margin-bottom: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* finaliza main teatro.html */
+/* comienza soporte.html */
+/* comienza header soporte.html */
+.h-s {
+  background-color: #F9DBBB;
+  height: 550px;
+}
+
+.busqueda-s {
+  width: 100%;
+  margin-left: 330px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.busqueda-s h3 {
+  font-weight: bold;
+}
+
+.container-s {
+  height: 42px;
+  margin-top: 20px;
+  width: 1200px;
+  border: 2px solid;
+  padding: 0px 0px;
+  border-radius: 50px;
+}
+
+.elements-container-s {
+  background-color: white;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.s-button {
+  background-color: rgba(0, 0, 0, 0.877);
+  color: white;
+  border-radius: 5px;
+  width: 120px;
+}
+
+.search {
+  border: none;
+  height: 100%;
+  width: 100%;
+  margin-right: 700px;
+  padding: 0px 5px;
+  border-radius: 50px;
+  font-size: 18px;
+  color: #424242;
+  font-weight: 500;
+}
+
+.busqueda-s p {
+  display: flex;
+  justify-content: left;
+  margin-left: 8px;
+}
+
+/* finaliza header soporte.html */
+/* comienza main soporte.html */
+#l-abajo {
+  margin-top: 150px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.s-i {
+  margin-left: 250px;
+  padding: 12px 20px 25px 20px;
+  border: 3px solid #000;
+  border-radius: 10px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.s-i h4 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.clientes {
+  margin-left: 200px;
+  margin-top: 150px;
+  width: 80%;
+  border: 3px solid #000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10em;
+}
+
+.c-a {
+  padding-top: 150px;
+  padding-left: 140px;
+  display: flex;
+  justify-content: left;
+  align-items: start;
+  flex-direction: column;
+}
+
+.c-a h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.c-a p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.img-c {
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin-right: 100px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: right;
+}
+
+.c-a button {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 50px;
+  background-color: #F9DBBB;
+  border-radius: 10px;
+  padding: 10px 50px 10px 50px;
+}
+
+/* finaliza main soporte.html */
+/* comienza footer soporte.html */
+.s-l-s {
+  display: flex;
+  justify-content: space-between;
+}
+
+.redes-sociales-s {
+  height: 30px;
+  margin-top: 6.5%;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/* finaliza footer soporte.html */
+/* finaliza soporte.html */
+/* comienza iniciar sesion */
+/* comienza header iniciar sesion */
+.h-ini {
+  background-color: rgba(46, 56, 64, 0.8352941176);
+}
+
+/* comienza main iniciar sesion */
+/* lado izquierdo */
+.main-ini {
+  background-color: #F9DBBB;
+  height: 1200px;
+}
+
+#row-ini {
+  margin-top: 0px;
+}
+
+.l-izquierdo-ini {
+  height: 70%;
+  width: 45%;
+  margin-top: 12%;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  border: 1px solid #000;
+  padding: 70px;
+}
+
+.l-izquierdo-ini h2 {
+  font-weight: bold;
+  margin-left: 17%;
+}
+
+#email, #password {
+  margin-top: 18px;
+  margin-bottom: 12px;
+  width: 60%;
+  border-radius: 20px;
+}
+
+.recordarme {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#o-contraseña {
+  background-color: rgba(255, 255, 255, 0.849);
+  border: 1px solid #000;
+  margin-left: 50%;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.b-ini {
+  background-color: white;
+  width: 35%;
+  /* padding: 10px; */
+  margin-left: 34%;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.e-ini {
+  font-weight: bold;
+  font-size: larger;
+}
+
+/* lado derecho */
+.l-derecho-ini {
+  height: 70%;
+  width: 45%;
+  margin-top: 12%;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  border: 1px solid #000;
+  padding: 70px;
+}
+
+.l-derecho-ini h2 {
+  font-weight: bold;
+  margin-left: 17%;
+}
+
+#name, #date, #sexo, #password-d, #password-r {
+  margin-top: 18px;
+  margin-bottom: 12px;
+  width: 60%;
+  border-radius: 20px;
+}
+
+#name, #date, #password-r {
+  width: 60%;
+}
+
+#sexo-g {
+  width: 4%;
+}
+
+.b-ini-d {
+  margin-top: 60px;
+  font-weight: bold;
+  background-color: white;
+  width: 35%;
+  margin-left: 34%;
+  font-size: x-large;
+}
+
+/* comienza footer iniciar sesion */
+.footer-ini {
+  color: white;
+  background-color: #2E3840;
+  height: 300px;
+}
+
+/* finaliza footer iniciar sesion */
+/* comienza media queries  */
+@media only screen and (min-width: 0) and (max-width: 480px) {
+  /* comienza header index.html */
+  .navbar-collapse {
+    background-color: rgba(46, 56, 64, 0.2862745098);
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+    font-size: small;
+  }
+  .ritmolive {
+    font-size: 15px;
+  }
+  .img-navbar {
+    height: 30px;
+  }
+  .input-index {
+    width: 30px;
+  }
+  .h-i {
+    background-image: url(assets/img/hombre-con-guitarra.jpg);
+    background-size: cover;
+    background-position: left;
+    height: 1000px;
+  }
+  .jumbotron h1 {
+    padding-top: 100px;
+    margin-left: 50px;
+    font-size: 30px;
+  }
+  .jumbotron p {
+    margin-left: 50px;
+    font-size: 20px;
+    color: rgb(173, 172, 172);
+  }
+  .h {
+    width: 80%;
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+  .jumbotron h3 {
+    font-size: 23px;
+    margin-left: 50px;
+  }
+  .jumbotron section p {
+    font-size: 18px;
+    margin-left: 50px;
+  }
+  /* finaliza header index.html */
+  /* comienza main index.html */
+  .titulo-principal {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 25px;
+    padding-top: 30px;
+  }
+  .principales {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .theweeknd {
+    background-image: url(assets/img/TheWeeknd.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+  }
+  .b-w {
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+  }
+  .tyler {
+    background-image: url(assets/img/tyler.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+  }
+  .t-t {
+    margin-top: 30px;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row {
+    padding: 45px;
+    gap: 5em;
+  }
+  /* finaliza main index.html */
+  /* comienza footer index.html */
+  .footer {
+    color: white;
+    background-color: #2E3840;
+    height: 600px;
+    margin-top: 150px;
+  }
+  .soporte {
+    margin-right: 5px;
+    padding-top: 100px;
+    padding-left: 5px;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .b-soporte {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding: 1px 10px;
+    border-radius: 5px;
+  }
+  .soporte p {
+    margin-right: 20px;
+  }
+  .redes-sociales {
+    margin-top: 25px;
+    margin-left: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .f-logo {
+    margin-top: 60px;
+    margin-right: 160px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .s-l {
+    display: flex;
+    flex-direction: column;
+  }
+  .hf {
+    width: 88%;
+    margin-top: 50px;
+    margin-left: 28px;
+  }
+  /* finaliza footer index.html */
+  /* comienza header theweeknd.html */
+  .h-tw {
     background-image: url(assets/img/TheWeeknd2.jpg);
     background-size: cover;
     background-position: top;
     height: 800px;
-}
-
-/* finaliza header */
-
-/* comienza main */
-
-.dropdown{
+    margin-bottom: 0px;
+  }
+  /* comienza main theweeknd.html */
+  .dropdown {
     margin: 40px 40px 40px 40px;
+  }
+  #dropdown1 {
+    margin-top: 300px;
+  }
+  .d-menus {
+    background-color: rgba(46, 56, 64, 0.2862745098);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn {
+    color: black;
+    background-color: white;
+    border-color: black;
+    width: 200px;
+    padding: 5px;
+    padding-left: 10px;
+  }
+  .c-dm {
+    background-color: rgb(214, 44, 44);
+    color: white;
+    padding: 5px 5px;
+    margin-bottom: 300px;
+    width: 200px;
+    font-size: large;
+    border-radius: 5px;
+  }
+  .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s {
+    display: flex;
+    justify-content: center;
+  }
+  .l-izquierdo h1 {
+    color: rgb(204, 14, 14);
+    margin-bottom: 50px;
+    margin-left: 35px;
+    font-weight: bolder;
+  }
+  .l-izquierdo h4 {
+    color: rgb(192, 9, 9);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 35px;
+    font-weight: bolder;
+  }
+  .l-izquierdo p {
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    padding: 5px;
+  }
+  .l-izquierdo .rtw {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .l-izquierdo .rtw-s {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-left: 10px;
+  }
+  .l-izquierdo .b-rtw {
+    background-color: rgba(190, 50, 50, 0.815);
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px;
+  }
+  .l-derecho .t-monu {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+  .iframes {
+    display: flex;
+    flex-direction: column;
+  }
+  .g-maps {
+    width: 90%;
+    height: 300px;
+    margin-bottom: 60px;
+  }
+  .v-yt {
+    width: 100%;
+    height: 450px;
+  }
+  /* comienza footer theweeknd.html */
+  .redes-sociales {
+    margin-top: 25px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .f-logo {
+    margin-top: 60px;
+    margin-left: 10px;
+    width: 65%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .hf {
+    width: 88%;
+    margin-top: 50px;
+    margin-left: 28px;
+  }
 }
-
-.d-menus{
-    background-color: #2e384049;
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  /* comienza header index.html */
+  .navbar-collapse {
+    width: 100%;
+    font-size: 12px;
+  }
+  .ritmolive {
+    font-size: 13px;
+  }
+  .img-navbar {
+    height: 60px;
+    margin-left: 10px;
+  }
+  .input-index {
+    width: 30px;
+  }
+  .h-i {
+    background-image: url(assets/img/hombre-con-guitarra.jpg);
+    background-size: cover;
+    background-position: left;
+    height: 1000px;
+  }
+  .jumbotron h1 {
+    padding-top: 100px;
+    margin-left: 50px;
+    font-size: 30px;
+  }
+  .jumbotron p {
+    margin-left: 50px;
+    font-size: 20px;
+    color: rgb(173, 172, 172);
+  }
+  .h {
+    width: 90%;
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+  .jumbotron h3 {
+    font-size: 23px;
+    margin-left: 50px;
+  }
+  .jumbotron section p {
+    font-size: 18px;
+    margin-left: 50px;
+  }
+  /* comienza main index.html */
+  .titulo-principal {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 25px;
+    padding-top: 30px;
+  }
+  .principales {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .theweeknd {
+    background-image: url(assets/img/TheWeeknd.jpg);
+    height: 300px;
+    width: 90%;
+    background-size: cover;
+    background-position: top;
+  }
+  .b-w {
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+  }
+  .tyler {
+    background-image: url(assets/img/tyler.jpg);
+    height: 300px;
+    width: 90%;
+    background-size: cover;
+    background-position: top;
+  }
+  .t-t {
+    margin-top: 30px;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row {
+    padding: 45px;
+    gap: 5em;
+  }
+  /* comienza footer index.html */
+  .footer {
+    color: white;
+    background-color: #2E3840;
+    height: 600px;
+    margin-top: 150px;
+  }
+  .soporte {
+    margin-right: 5px;
+    padding-top: 100px;
+    padding-left: 5px;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .b-soporte {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding: 1px 10px;
+    border-radius: 5px;
+  }
+  .soporte p {
+    margin-right: 20px;
+  }
+  .redes-sociales {
+    margin-top: 25px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .f-logo {
+    margin-top: 60px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .s-l {
+    display: flex;
+    flex-direction: column;
+  }
+  .hf {
+    width: 88%;
+    margin-top: 50px;
+    margin-left: 28px;
+  }
+  /* comienza header theweeknd.html */
+  .h-tw {
+    background-image: url(assets/img/TheWeeknd2.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 800px;
+    margin-bottom: 0px;
+  }
+  /* finaliza header theweeknd.html */
+  /* comienza main theweeknd.html */
+  .dropdown {
+    margin: 40px 40px 40px 40px;
+  }
+  #dropdown1 {
+    margin-top: 300px;
+  }
+  .d-menus {
+    background-color: rgba(46, 56, 64, 0.2862745098);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn {
+    color: black;
+    background-color: white;
+    border-color: black;
+    width: 200px;
+    padding: 5px;
+    padding-left: 10px;
+  }
+  .c-dm {
+    background-color: rgb(214, 44, 44);
+    color: white;
+    padding: 5px 5px;
+    margin-bottom: 300px;
+    width: 200px;
+    font-size: large;
+    border-radius: 5px;
+  }
+  .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s {
+    display: flex;
+    justify-content: center;
+  }
+  .l-izquierdo h1 {
+    color: rgb(204, 14, 14);
+    margin-bottom: 50px;
+    margin-left: 35px;
+    font-weight: bolder;
+  }
+  .l-izquierdo h4 {
+    color: rgb(192, 9, 9);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 80px;
+    font-weight: bolder;
+  }
+  .l-izquierdo p {
+    display: flex;
+    justify-content: left;
+    width: 80%;
+    margin-left: 70px;
+    padding: 5px;
+  }
+  .l-izquierdo .rtw {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .l-izquierdo .rtw-s {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1em;
+    margin-top: 60px;
+    margin-left: 10px;
+  }
+  .l-izquierdo .b-rtw {
+    background-color: rgba(190, 50, 50, 0.815);
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px;
+  }
+  .l-derecho .t-monu {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+  .iframes {
+    display: flex;
+    flex-direction: column;
+  }
+  .g-maps {
+    width: 90%;
+    height: 300px;
+    margin-bottom: 60px;
+  }
+  .v-yt {
+    width: 100%;
+    height: 450px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  /* comienza main theweeknd.html */
+  .dropdown {
+    margin: 40px 40px 40px 40px;
+  }
+  #dropdown1 {
+    margin-top: 300px;
+  }
+  .d-menus {
+    background-color: rgba(46, 56, 64, 0.2862745098);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn {
+    color: black;
+    background-color: white;
+    border-color: black;
+    width: 200px;
+    padding: 5px;
+    padding-left: 10px;
+  }
+  .c-dm {
+    background-color: rgb(214, 44, 44);
+    color: white;
+    margin-bottom: 300px;
+    width: 200px;
+    font-size: large;
+    border-radius: 5px;
+  }
+  .row {
+    margin-left: 70px;
+    display: flex;
+    justify-content: left;
+  }
+  .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .l-izquierdo h1 {
+    color: rgb(204, 14, 14);
+    width: 450px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+  .l-izquierdo h4 {
+    color: rgb(192, 9, 9);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 35px;
+    width: 350px;
+    font-size: large;
+    font-weight: bolder;
+  }
+  .l-izquierdo p {
+    display: flex;
+    justify-content: left;
+    font-size: medium;
+    width: 350px;
+    margin-left: 10px;
+    padding: 5px;
+  }
+  .l-izquierdo .rtw {
+    width: 340px;
+    margin-top: 50px;
+    margin-left: 5px;
+  }
+  .l-izquierdo .rtw-s {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-left: 150px;
+  }
+  .l-izquierdo .b-rtw {
+    background-color: rgba(190, 50, 50, 0.815);
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px;
+  }
+  .l-derecho .t-monu {
+    width: 350px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+  .iframes {
+    display: flex;
+    flex-direction: column;
+  }
+  .g-maps {
+    width: 180%;
+    height: 300px;
+    margin-bottom: 60px;
+  }
+  .v-yt {
+    width: 200%;
+    height: 450px;
+  }
+  /* comienza footer theweeknd.html */
+  .soporte p {
+    margin-bottom: 30px;
+    margin-right: 20px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* comienza header index.html */
+  .navbar-collapse {
+    width: 100%;
+    font-size: medium;
+  }
+  .ritmolive {
+    font-size: 18px;
+  }
+  .img-navbar {
+    height: 70px;
+    margin-left: 10px;
+  }
+  .input-index {
+    width: 30px;
+  }
+  .h-i {
+    background-image: url(assets/img/hombre-con-guitarra.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 800px;
+  }
+  .jumbotron h1 {
+    padding-top: 100px;
+    margin-left: 50px;
+    font-size: 30px;
+  }
+  .jumbotron p {
+    margin-left: 50px;
+    font-size: 20px;
+    color: rgb(173, 172, 172);
+  }
+  .h {
+    width: 90%;
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+  .jumbotron h2 {
+    font-size: 23px;
+    margin-left: 50px;
+  }
+  .jumbotron section p {
+    font-size: 18px;
+    margin-left: 50px;
+  }
+  /* comienza main index.html */
+  .titulo-principal {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 25px;
+    padding-top: 30px;
+  }
+  .principales {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .theweeknd {
+    background-image: url(assets/img/TheWeeknd.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: top;
+  }
+  .b-w {
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+  }
+  .tyler {
+    background-image: url(assets/img/tyler.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: top;
+  }
+  .t-t {
+    margin-top: 30px;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row {
+    padding: 45px;
+    gap: 5em;
+  }
+  /* comienza footer index.html */
+  .footer {
+    color: white;
+    background-color: #2E3840;
+    height: 600px;
+    margin-top: 150px;
+  }
+  .soporte {
+    margin-left: 50px;
+    padding-top: 100px;
+    padding-left: 5px;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .b-soporte {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding: 1px 10px;
+    border-radius: 5px;
+  }
+  .soporte p {
+    margin-right: 20px;
+  }
+  .redes-sociales {
+    margin-top: 25px;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .f-logo {
+    margin-top: 90px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .s-l {
+    display: flex;
+    flex-direction: row;
+  }
+  .hf {
+    width: 88%;
+    margin-top: 50px;
+    margin-left: 28px;
+  }
+  /* comienza main theweeknd.html */
+  .dropdown {
+    margin: 40px 40px 40px 40px;
+  }
+  #dropdown1 {
+    margin-top: 300px;
+  }
+  .d-menus {
+    background-color: rgba(46, 56, 64, 0.2862745098);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn {
+    color: black;
+    background-color: white;
+    border-color: black;
+    width: 200px;
+    padding: 5px;
+    padding-left: 10px;
+  }
+  .c-dm {
+    background-color: rgb(214, 44, 44);
+    color: white;
+    padding: 5px 5px;
+    margin-bottom: 300px;
+    width: 200px;
+    font-size: large;
+    border-radius: 5px;
+  }
+  .row {
+    margin-left: 70px;
+    display: flex;
+    justify-content: left;
+  }
+  .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+  }
+  .l-izquierdo h1 {
+    color: rgb(204, 14, 14);
+    margin-bottom: 50px;
+    margin-left: 70px;
+    font-weight: bolder;
+  }
+  .l-izquierdo h4 {
+    color: rgb(192, 9, 9);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 90px;
+    font-weight: bolder;
+  }
+  .l-izquierdo p {
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    padding: 5px;
+  }
+  .l-izquierdo .rtw {
+    margin-top: 50px;
+    margin-left: 60px;
+  }
+  .l-izquierdo .rtw-s {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-left: 60px;
+  }
+  .l-izquierdo .b-rtw {
+    background-color: rgba(190, 50, 50, 0.815);
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px;
+  }
+  .l-derecho .t-monu {
+    margin-left: 60px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+  .iframes {
+    display: flex;
+    flex-direction: column;
+  }
+  .g-maps {
+    margin-left: 80px;
+    width: 450px;
+    height: 300px;
+    margin-bottom: 60px;
+  }
+  .v-yt {
+    margin-left: 20px;
+    width: 180%;
+    height: 450px;
+  }
+  /* comienza footer theweeknd.html */
+  .soporte {
+    padding-top: 100px;
+    padding-left: 5px;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .soporte p {
+    width: 150px;
+  }
+  .f-logo {
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .s-l {
+    display: flex;
+    flex-direction: column;
+  }
+  .hf {
+    width: 88%;
+    margin-top: 50px;
+    margin-left: 28px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1460px) {
+  .navbar-collapse {
+    width: 100%;
+    font-size: medium;
+  }
+  .ritmolive {
+    font-size: 18px;
+  }
+  .img-navbar {
+    height: 70px;
+    margin-left: 10px;
+  }
+  .input-index {
+    width: 30px;
+  }
+  .h-i {
+    background-image: url(assets/img/hombre-con-guitarra.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 800px;
+  }
+  .jumbotron h1 {
+    padding-top: 100px;
+    margin-left: 50px;
+    font-size: 30px;
+  }
+  .jumbotron p {
+    margin-left: 50px;
+    font-size: 20px;
+    color: rgb(173, 172, 172);
+  }
+  .h {
+    width: 90%;
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+  .jumbotron h3 {
+    font-size: 23px;
+    margin-left: 50px;
+  }
+  .jumbotron section p {
+    font-size: 18px;
+    margin-left: 50px;
+  }
+  /* comienza main index.html */
+  .titulo-principal {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 25px;
+    padding-top: 30px;
+  }
+  .principales {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .theweeknd {
+    background-image: url(assets/img/TheWeeknd.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: top;
+  }
+  .b-w {
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+  }
+  .tyler {
+    background-image: url(assets/img/tyler.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: top;
+  }
+  .t-t {
+    margin-top: 30px;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row {
+    padding: 45px;
+    gap: 5em;
+  }
+  /*comienza footer index.html */
+  .footer {
+    color: white;
+    background-color: #2E3840;
+    height: 600px;
+    margin-top: 150px;
+  }
+  .soporte {
+    margin-left: 50px;
+    padding-top: 100px;
+    padding-left: 5px;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .b-soporte {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding: 1px 10px;
+    border-radius: 5px;
+  }
+  .soporte p {
+    margin-right: 20px;
+  }
+  .redes-sociales {
+    margin-top: 25px;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .f-logo {
+    margin-top: 90px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .s-l {
+    display: flex;
+    flex-direction: row;
+  }
+  .hf {
+    width: 88%;
+    margin-top: 50px;
+    margin-left: 28px;
+  }
+  /* comienza main theweeknd.html */
+  .dropdown {
+    margin: 40px 40px 40px 40px;
+  }
+  .d-menus {
+    background-color: rgba(46, 56, 64, 0.2862745098);
     height: 140px;
     width: 100%;
     display: flex;
     justify-content: center;
-}
-
-.btn{
+  }
+  .btn {
     color: black;
     background-color: white;
     border-color: black;
-    width: 300px;
+    width: 200px;
     padding: 15px;
     padding-left: 10px;
-}
-
-.c-dm{
+  }
+  .c-dm {
     background-color: rgb(214, 44, 44);
     color: white;
     margin: 40px 40px 40px 40px;
     width: 200px;
     font-size: large;
     border-radius: 5px;
-}
-
-.l-izquierdo h1, p, .p, h4, .rtw, .rtw-s{
+  }
+  .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s {
     display: flex;
     justify-content: center;
-}
-
-.l-izquierdo h1{
+  }
+  .l-izquierdo h1 {
     color: rgb(204, 14, 14);
     margin-bottom: 50px;
     font-weight: bolder;
-}
-
-.l-izquierdo h4{
+  }
+  .l-izquierdo h4 {
     color: rgb(192, 9, 9);
     padding-top: 30px;
     padding-bottom: 30px;
+    font-size: large;
     font-weight: bolder;
-}
-
-.l-izquierdo p{
+  }
+  .l-izquierdo p {
     display: flex;
     justify-content: stretch;
     margin-left: 70px;
     margin-right: 60px;
     padding: 5px;
-}
-
-.l-izquierdo .rtw{
+  }
+  .l-izquierdo .rtw {
     margin-top: 50px;
-}
-
-.l-izquierdo .rtw-s{
+  }
+  .l-izquierdo .rtw-s {
     display: flex;
     justify-content: space-evenly;
     margin-top: 60px;
-}
-
-.l-izquierdo .b-rtw{
+  }
+  .l-izquierdo .b-rtw {
     background-color: rgba(190, 50, 50, 0.815);
     border-radius: 5px;
     width: 110px;
     padding: 5px;
-}
-
-
-.l-derecho .t-monu{
+  }
+  .l-derecho .t-monu {
     display: flex;
     align-items: start;
     flex-direction: column;
-}
-
-.iframes{
+  }
+  .iframes {
     display: flex;
     flex-direction: column;
-}
-
-.g-maps{
-    width: 350px;
-    height: 300px;
+  }
+  .g-maps {
+    width: 500px;
+    height: 350px;
     margin-bottom: 60px;
-}
-
-.v-yt{
-    width: 700px;
+  }
+  .v-yt {
+    width: 110%;
     height: 450px;
+  }
 }
 
-/* termina main */
-
-/* comienza teatro.html */
-
-/* comienza header */
-
-.h-te{
-    background-color: rgba(0, 0, 0, 0.897);
-}
-
-.img-banner{
-    background-image: url(assets/img/teatro.jpg);
-    background-size: cover;
-    background-position: left;
-    height: 800px;
-    filter: blur(5px);
-}
-
-.img-vort{
-    height: 300px;
-    width: 400px;
-}
-
-.txt-banner{
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 5;
-    width: 45%;
-    padding: 45px 0;
-    text-align: center;
-    border-top-left-radius: 70px;
-    border-bottom-right-radius: 70px;
-    background-color: rgba(0, 0, 0, 0.3);
-    color: #fff;
-    font-weight: bold;
-    border: 10px inset #fff;
-}
-
-/* comienza main teatro.html */
-
-.b-i{
-    margin: 140px 0px 100px 50px;
-    margin-top: 140px;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.b-i-1{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-}
-
-.b-d{
-    margin: 140px 0px 100px 50px;
-    margin-top: 140px;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.b-i-1 h3{
-    font-weight: bold;
-}
-
-.b-i-1 h3, p{
-    margin-top: 10px;
-}
-
-.l-derecho-teatro{
-    margin-top: 100px;
-    font-size: 24px;
-}
-
-.l-derecho-teatro h2{
-    margin-bottom: 40px;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-/* finaliza main teatro.html */
-
-/* comienza soporte.html */
-
-/* comienza header soporte.html */
-
-.h-s{
-    background-color: #F9DBBB;
-    height: 550px;
-}
-
-.busqueda-s{
-    width: 100%;
-    margin-left: 330px;
-    margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-}
-
-.busqueda-s h3{
-    font-weight: bold;
-}
-
-.container-s{
-    height: 42px;
-    margin-top: 20px;
-    width: 1200px;
-    border: 2px solid ;
-    padding: 0px 0px;
-    border-radius: 50px;
-}
-
-.elements-container-s{
-    background-color: white;
-    border-radius: 30px;
-    width: 100%;
-    height: 100%;
-    vertical-align: middle;
-}
-
-.s-button{
-    background-color: rgba(0, 0, 0, 0.877);
-    color: white;
-    border-radius: 5px;
-    width: 120px;
-}
-
-.search{
-    border: none;
-    height: 100%;
-    width: 100%;
-    margin-right: 700px;
-    padding: 0px 5px;
-    border-radius: 50px;
-    font-size: 18px;
-    color: #424242;
-    font-weight: 500;
-}
-
-.busqueda-s p{
-    display: flex;
-    justify-content: left;
-    margin-left: 8px;
-}
-
-/* finaliza header soporte.html */
-
-/* comienza main soporte.html */
-
-#l-abajo{
-    margin-top: 150px;
-}
-
-.row{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 100px; 
-}
-.s-i{
-    margin-left: 250px;
-    padding: 12px 20px 25px 20px; 
-    border: 3px solid #000;
-    border-radius: 10px;
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-}
-
-.s-i h4{
-    margin-top: 20px;
-    font-weight: bold;
-}
-
-.clientes{
-    margin-left: 200px;
-    margin-top: 150px;
-    width: 80%;
-    border: 3px solid #000;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    gap: 10em;
-}
-
-.c-a{
-    padding-top: 150px;
-    padding-left: 140px;
-    display: flex;
-    justify-content: left;
-    align-items: start;
-    flex-direction: column;
-}
-
-.c-a h1{
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.c-a p{
-    margin-top: 20px;
-    font-size: 18px;
-}
-
-.img-c{
-    border: 2px solid #000;
-    border-radius: 5px;
-    margin-right: 100px;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    display: flex;
-    justify-content: right;
-}
-
-.c-a button{
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 50px;
-    background-color: #F9DBBB;
-    border-radius: 10px;
-    padding: 10px 50px 10px 50px;
-}
-
-/* finaliza main soporte.html */
-
-/* comienza footer soporte.html */
-
-.s-l-s{
-    display: flex;
-    justify-content: space-between;
-}
-
-.redes-sociales-s{
-    height: 30px;
-    margin-top: 6.5%;
-    margin-right: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-/* finaliza footer soporte.html */
-
-/* finaliza soporte.html */
-
-/* comienza iniciar sesion */
-
-/* comienza header iniciar sesion */
-
-.h-ini{
-    background-color: #2e3840d5;
-}
-
-/* comienza main iniciar sesion */
-
-/* lado izquierdo */
-
-.main-ini{
-    background-color: #F9DBBB;
-    height: 1200px;
-}
-
-#row-ini{
-    margin-top: 0px;
-}
-
-.l-izquierdo-ini{
-    height: 70%;
-    width: 45%;
-    margin-top: 12%;
-    display: flex;
-    align-items: left;
-    flex-direction: column;
-    border: 1px solid #000;
-    padding: 70px;
-}
-
-.l-izquierdo-ini h2{
-    font-weight: bold;
-    margin-left: 17%;
-}
-
-#email, #password{
-    margin-top: 18px;
-    margin-bottom: 12px;
-    width: 60%;
-    border-radius: 20px;
-}
-
-.recordarme{
-    margin-top: 30px;
-    margin-bottom: 50px;
-}
-
-#o-contraseña{
-    background-color: rgba(255, 255, 255, 0.849);
-    border: 1px solid #000;
-    margin-left: 50%;
-    font-weight: bold;
-    padding: 5px;
-}
-
-.b-ini{
-    background-color: white;
-    width: 35%;
-    /* padding: 10px; */
-    margin-left: 34%;
-    font-weight: bold;
-    font-size: x-large;
-}
-
-.e-ini{
-    font-weight: bold;
-    font-size: larger;
-}
-
-/* lado derecho */
-
-.l-derecho-ini{
-    height: 70%;
-    width: 45%;
-    margin-top: 12%;
-    display: flex;
-    align-items: left;
-    flex-direction: column;
-    border: 1px solid #000;
-    padding: 70px;
-}
-
-.l-derecho-ini h2{
-    font-weight: bold;
-    margin-left: 17%;
-}
-
-#name, #date, #sexo, #password-d, #password-r{
-    margin-top: 18px;
-    margin-bottom: 12px;
-    width: 60%;
-    border-radius: 20px;
-}
-
-#name, #date, #password-r{
-    width: 60%;
-}
-
-#sexo-g{
-    width: 4%;
-}
-
-.b-ini-d{
-    margin-top: 60px;
-    font-weight: bold;
-    background-color: white;
-    width: 35%;
-    margin-left: 34%;
-    font-size: x-large;
-}
-
-/* comienza footer iniciar sesion */
-
-.footer-ini{
-    color: white;
-    background-color: #2E3840;
-    height: 300px;
-}
-
-/* finaliza footer iniciar sesion */
-
-
-/* comienza media queries  */
-
-@media only screen and (min-width: 0) and (max-width: 480px) {
-
-    /* comienza header index.html */
-
-    .navbar-collapse {
-        background-color: #2e384049;
-        width: 100%;
-        display: flex;
-        justify-content: center !important;
-        font-size: small;
-    }
-
-    .ritmolive {
-        font-size: 15px;
-    }
-
-    .img-navbar {
-        height: 30px;
-    }
-
-    .input-index {
-        width: 30px;
-    }
-
-    .h-i{
-        background-image: url(assets/img/hombre-con-guitarra.jpg);
-        background-size: cover;
-        background-position: left;
-        height: 1000px;
-    }
-
-    .jumbotron h1 {
-        padding-top: 100px;
-        margin-left: 50px;
-        font-size: 30px;
-    }
-
-    .jumbotron p {
-        margin-left: 50px;
-        font-size: 20px;
-        color: rgb(173, 172, 172);
-    }
-
-    .h {
-        width: 80%;
-        margin-top: 150px;
-        margin-left: 50px;
-    }
-
-    .jumbotron h3 {
-        font-size: 23px;
-        margin-left: 50px;
-    }
-
-    .jumbotron section p {
-        font-size: 18px;
-        margin-left: 50px;
-    }
-
-    /* finaliza header index.html */
-
-    /* comienza main index.html */
-
-    .titulo-principal {
-        display: flex;
-        justify-content: flex-start;
-        padding-left: 25px;
-        padding-top: 30px;
-    }
-
-    .principales {
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .theweeknd {
-        background-image: url(assets/img/TheWeeknd.jpg);
-        height: 300px;
-        width: 100%;
-        background-size: cover;
-        background-position: top;
-    }
-
-    .b-w {
-        font-size: medium;
-        color: black;
-        text-decoration: none;
-    }
-
-    .tyler {
-        background-image: url(assets/img/tyler.jpg);
-        height: 300px;
-        width: 100%;
-        background-size: cover;
-        background-position: top;
-    }
-
-    .t-t {
-        margin-top: 30px;
-        font-size: small;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .row {
-        padding: 45px;
-        gap: 5em;
-    }
-
-    /* finaliza main index.html */
-
-    /* comienza footer index.html */
-
-    .footer {
-        color: white;
-        background-color: #2E3840;
-        height: 600px;
-        margin-top: 150px;
-    }
-
-    .soporte {
-        margin-right: 5px;
-        padding-top: 100px;
-        padding-left: 5px;
-        font-size: small;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .b-soporte {
-        color: black;
-        background-color: white;
-        text-decoration: none;
-        margin-bottom: 30px;
-        padding: 1px 10px;
-        border-radius: 5px;
-    }
-
-    .soporte p {
-        margin-right: 20px;
-    }
-
-    .redes-sociales {
-        margin-top: 25px;
-        margin-left: 35px;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-    }
-
-    .f-logo {
-        margin-top: 60px;
-        margin-right: 160px;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .s-l {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .hf {
-        width: 88%;
-        margin-top: 50px;
-        margin-left: 28px;
-    }
-
-    /* finaliza footer index.html */
-
-    /* comienza header theweeknd.html */
-
-    .h-tw{
-        background-image: url(assets/img/TheWeeknd2.jpg);
-        background-size: cover;
-        background-position: top;
-        height: 800px;
-        margin-bottom: 0px;
-    }
-
-    /* comienza main theweeknd.html */
-
-    .dropdown{
-        margin: 40px 40px 40px 40px;
-    }
-
-    #dropdown1{
-        margin-top: 300px;
-    }
-
-    .d-menus{
-        background-color: #2e384049;
-        height: 500px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .btn{
-        color: black;
-        background-color: white;
-        border-color: black;
-        width: 200px;
-        padding: 5px;
-        padding-left: 10px;
-    }
-    
-    .c-dm{
-        background-color: rgb(214, 44, 44);
-        color: white;
-        padding: 5px 5px;
-        margin-bottom: 300px;
-        width: 200px;
-        font-size: large;
-        border-radius: 5px;
-    }
-
-    .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .l-izquierdo h1{
-        color: rgb(204, 14, 14);
-        margin-bottom: 50px;
-        margin-left: 35px;
-        font-weight: bolder;
-    }
-    
-    .l-izquierdo h4{
-        color: rgb(192, 9, 9);
-        padding-top: 30px;
-        padding-bottom: 30px;
-        margin-left: 35px;
-        font-weight: bolder;
-    }
-    
-    .l-izquierdo p{
-        display: flex;
-        justify-content: center;
-        margin-left: 70px;
-        padding: 5px;
-    }
-    
-    .l-izquierdo .rtw{
-        margin-top: 50px;
-        margin-left: 50px;
-    }
-    
-    .l-izquierdo .rtw-s{
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 60px;
-        margin-left: 10px;
-    }
-    
-    .l-izquierdo .b-rtw{
-        background-color: rgba(190, 50, 50, 0.815);
-        border-radius: 5px;
-        width: 100px;
-        padding: 5px;
-    }
-
-    .l-derecho .t-monu{
-        display: flex;
-        align-items: start;
-        flex-direction: column;
-    }
-    
-    .iframes{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .g-maps{
-        width: 90%;
-        height: 300px;
-        margin-bottom: 60px;
-    }
-    
-    .v-yt{
-        width: 100%;
-        height: 450px;
-    }
-
-    /* comienza footer theweeknd.html */
-
-    .redes-sociales {
-        margin-top: 25px;
-        margin-right: 40px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .f-logo {
-        margin-top: 60px;
-        margin-left: 10px;
-        width: 65%;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .hf {
-        width: 88%;
-        margin-top: 50px;
-        margin-left: 28px;
-    }
-
-}
-
-@media only screen and (min-width: 480px) and (max-width: 768px) {
-
-    /* comienza header index.html */
-
-    .navbar-collapse {
-        width: 100%;
-        font-size: 12px;
-    }
-
-    .ritmolive {
-        font-size: 13px;
-    }
-
-    .img-navbar {
-        height: 60px;
-        margin-left: 10px;
-    }
-
-    .input-index {
-        width: 30px;
-    }
-
-    .h-i{
-        background-image: url(assets/img/hombre-con-guitarra.jpg);
-        background-size: cover;
-        background-position: left;
-        height: 1000px;
-    }
-
-    .jumbotron h1 {
-        padding-top: 100px;
-        margin-left: 50px;
-        font-size: 30px;
-    }
-
-    .jumbotron p {
-        margin-left: 50px;
-        font-size: 20px;
-        color: rgb(173, 172, 172);
-    }
-
-    .h {
-        width: 90%;
-        margin-top: 150px;
-        margin-left: 50px;
-    }
-
-    .jumbotron h3 {
-        font-size: 23px;
-        margin-left: 50px;
-    }
-
-    .jumbotron section p {
-        font-size: 18px;
-        margin-left: 50px;
-    }
-
-    /* comienza main index.html */
-
-    .titulo-principal {
-        display: flex;
-        justify-content: flex-start;
-        padding-left: 25px;
-        padding-top: 30px;
-    }
-
-    .principales {
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .theweeknd {
-        background-image: url(assets/img/TheWeeknd.jpg);
-        height: 300px;
-        width: 90%;
-        background-size: cover;
-        background-position: top;
-    }
-
-    .b-w {
-        font-size: medium;
-        color: black;
-        text-decoration: none;
-    }
-
-    .tyler {
-        background-image: url(assets/img/tyler.jpg);
-        height: 300px;
-        width: 90%;
-        background-size: cover;
-        background-position: top;
-    }
-
-    .t-t {
-        margin-top: 30px;
-        font-size: small;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .row {
-        padding: 45px;
-        gap: 5em;
-    }
-
-    /* comienza footer index.html */
-
-    .footer {
-        color: white;
-        background-color: #2E3840;
-        height: 600px;
-        margin-top: 150px;
-    }
-
-    .soporte {
-        margin-right: 5px;
-        padding-top: 100px;
-        padding-left: 5px;
-        font-size: small;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .b-soporte {
-        color: black;
-        background-color: white;
-        text-decoration: none;
-        margin-bottom: 30px;
-        padding: 1px 10px;
-        border-radius: 5px;
-    }
-
-    .soporte p {
-        margin-right: 20px;
-    }
-
-    .redes-sociales {
-        margin-top: 25px;
-        margin-left: 50px;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-
-    }
-
-    .f-logo {
-        margin-top: 60px;
-        margin-right: 5px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .s-l {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .hf {
-        width: 88%;
-        margin-top: 50px;
-        margin-left: 28px;
-    }
-
-    /* comienza header theweeknd.html */
-
-    .h-tw{
-        background-image: url(assets/img/TheWeeknd2.jpg);
-        background-size: cover;
-        background-position: top;
-        height: 800px;
-        margin-bottom: 0px;
-    }
-
-    /* finaliza header theweeknd.html */
-
-    /* comienza main theweeknd.html */
-
-    .dropdown{
-        margin: 40px 40px 40px 40px;
-    }
-
-    #dropdown1{
-        margin-top: 300px;
-    }
-
-    .d-menus{
-        background-color: #2e384049;
-        height: 500px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .btn{
-        color: black;
-        background-color: white;
-        border-color: black;
-        width: 200px;
-        padding: 5px;
-        padding-left: 10px;
-    }
-    
-    .c-dm{
-        background-color: rgb(214, 44, 44);
-        color: white;
-        padding: 5px 5px;
-        margin-bottom: 300px;
-        width: 200px;
-        font-size: large;
-        border-radius: 5px;
-    }
-
-    .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .l-izquierdo h1{
-        color: rgb(204, 14, 14);
-        margin-bottom: 50px;
-        margin-left: 35px;
-        font-weight: bolder;
-    }
-    
-    .l-izquierdo h4{
-        color: rgb(192, 9, 9);
-        padding-top: 30px;
-        padding-bottom: 30px;
-        margin-left: 80px;
-        font-weight: bolder;
-    }
-    
-    .l-izquierdo p{
-        display: flex;
-        justify-content: left;
-        width: 80%;
-        margin-left: 70px;
-        padding: 5px;
-    }
-    
-    .l-izquierdo .rtw{
-        margin-top: 50px;
-        margin-left: 50px;
-    }
-    
-    .l-izquierdo .rtw-s{
-        display: flex;
-        justify-content: space-evenly;
-        gap: 1em;
-        margin-top: 60px;
-        margin-left: 10px;
-    }
-    
-    .l-izquierdo .b-rtw{
-        background-color: rgba(190, 50, 50, 0.815);
-        border-radius: 5px;
-        width: 100px;
-        padding: 5px;
-    }
-
-    .l-derecho .t-monu{
-        display: flex;
-        align-items: start;
-        flex-direction: column;
-    }
-    
-    .iframes{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .g-maps{
-        width: 90%;
-        height: 300px;
-        margin-bottom: 60px;
-    }
-    
-    .v-yt{
-        width: 100%;
-        height: 450px;
-    }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 768px) {
-
-    /* comienza main theweeknd.html */
-
-    .dropdown{
-        margin: 40px 40px 40px 40px;
-    }
-
-    #dropdown1{
-        margin-top: 300px;
-    }
-
-    .d-menus{
-        background-color: #2e384049;
-        height: 500px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .btn{
-        color: black;
-        background-color: white;
-        border-color: black;
-        width: 200px;
-        padding: 5px;
-        padding-left: 10px;
-    }
-    
-    .c-dm{
-        background-color: rgb(214, 44, 44);
-        color: white;
-        margin-bottom: 300px;
-        width: 200px;
-        font-size: large;
-        border-radius: 5px;
-    }
-
-    .row{
-        margin-left: 70px;
-        display: flex;
-        justify-content: left;
-    }
-
-    .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .l-izquierdo h1{
-        color: rgb(204, 14, 14);
-        width: 450px;
-        margin-bottom: 50px;
-        margin-left: 0px;
-        font-size: xx-large;
-        font-weight: bolder;
-    }
-    
-    .l-izquierdo h4{
-        color: rgb(192, 9, 9);
-        padding-top: 30px;
-        padding-bottom: 30px;
-        margin-left: 35px;
-        width: 350px;
-        font-size: large;
-        font-weight: bolder;
-    }
-    
-    .l-izquierdo p{
-        display: flex;
-        justify-content: left;
-        font-size: medium;
-        width: 350px;
-        margin-left: 10px;
-        padding: 5px;
-    }
-    
-    .l-izquierdo .rtw{
-        width: 340px;
-        margin-top: 50px;
-        margin-left: 5px;
-    }
-    
-    .l-izquierdo .rtw-s{
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 60px;
-        margin-left: 150px;
-    }
-    
-    .l-izquierdo .b-rtw{
-        background-color: rgba(190, 50, 50, 0.815);
-        border-radius: 5px;
-        width: 100px;
-        padding: 5px;
-    }
-
-    .l-derecho .t-monu{
-        width: 350px;
-        display: flex;
-        align-items: start;
-        flex-direction: column;
-    }
-    
-    .iframes{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .g-maps{
-        width: 180%;
-        height: 300px;
-        margin-bottom: 60px;
-    }
-    
-    .v-yt{
-        width: 200%;
-        height: 450px;
-    }
-
-    /* comienza footer theweeknd.html */
-
-    .soporte p {
-        margin-bottom: 30px;
-        margin-right: 20px;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-    /* comienza header index.html */
-
-    .navbar-collapse {
-        width: 100%;
-        font-size: medium;
-    }
-
-    .ritmolive {
-        font-size: 18px;
-    }
-
-    .img-navbar {
-        height: 70px;
-        margin-left: 10px;
-    }
-
-    .input-index {
-        width: 30px;
-    }
-
-    .h-i{
-        background-image: url(assets/img/hombre-con-guitarra.jpg);
-        background-size: cover;
-        background-position: bottom;
-        height: 800px;
-    }
-
-    .jumbotron h1 {
-        padding-top: 100px;
-        margin-left: 50px;
-        font-size: 30px;
-    }
-
-    .jumbotron p {
-        margin-left: 50px;
-        font-size: 20px;
-        color: rgb(173, 172, 172);
-    }
-
-    .h {
-        width: 90%;
-        margin-top: 150px;
-        margin-left: 50px;
-    }
-
-    .jumbotron h2 {
-        font-size: 23px;
-        margin-left: 50px;
-    }
-
-    .jumbotron section p {
-        font-size: 18px;
-        margin-left: 50px;
-    }
-
-    /* comienza main index.html */
-
-    .titulo-principal {
-        display: flex;
-        justify-content: flex-start;
-        padding-left: 25px;
-        padding-top: 30px;
-    }
-
-    .principales {
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .theweeknd {
-        background-image: url(assets/img/TheWeeknd.jpg);
-        height: 300px;
-        background-size: cover;
-        background-position: top;
-    }
-
-    .b-w {
-        font-size: medium;
-        color: black;
-        text-decoration: none;
-    }
-
-    .tyler {
-        background-image: url(assets/img/tyler.jpg);
-        height: 300px;
-        background-size: cover;
-        background-position: top;
-    }
-
-    .t-t {
-        margin-top: 30px;
-        font-size: small;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .row {
-        padding: 45px;
-        gap: 5em;
-    }
-
-    /* comienza footer index.html */
-
-    .footer {
-        color: white;
-        background-color: #2E3840;
-        height: 600px;
-        margin-top: 150px;
-    }
-
-    .soporte {
-        margin-left: 50px;
-        padding-top: 100px;
-        padding-left: 5px;
-        font-size: small;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-    }
-
-    .b-soporte {
-        color: black;
-        background-color: white;
-        text-decoration: none;
-        margin-bottom: 30px;
-        padding: 1px 10px;
-        border-radius: 5px;
-    }
-
-    .soporte p {
-        margin-right: 20px;
-    }
-
-    .redes-sociales {
-        margin-top: 25px;
-        margin-left: 45px;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-
-    }
-
-    .f-logo {
-        margin-top: 90px;
-        margin-right: 150px;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .s-l {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .hf {
-        width: 88%;
-        margin-top: 50px;
-        margin-left: 28px;
-    }
-
-    /* comienza main theweeknd.html */
-
-    .dropdown{
-        margin: 40px 40px 40px 40px;
-    }
-
-    #dropdown1{
-        margin-top: 300px;
-    }
-
-    .d-menus{
-        background-color: #2e384049;
-        height: 500px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .btn{
-        color: black;
-        background-color: white;
-        border-color: black;
-        width: 200px;
-        padding: 5px;
-        padding-left: 10px;
-    }
-    
-    .c-dm{
-        background-color: rgb(214, 44, 44);
-        color: white;
-        padding: 5px 5px;
-        margin-bottom: 300px;
-        width: 200px;
-        font-size: large;
-        border-radius: 5px;
-    }
-
-    .row{
-        margin-left: 70px;
-        display: flex;
-        justify-content: left;
-    }
-
-    .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s{
-        display: flex;
-        justify-content: center;
-        width: 500px;
-    }
-    
-    .l-izquierdo h1{
-        color: rgb(204, 14, 14);
-        margin-bottom: 50px;
-        margin-left: 70px;
-        font-weight: bolder;
-    }
-    
-    .l-izquierdo h4{
-        color: rgb(192, 9, 9);
-        padding-top: 30px;
-        padding-bottom: 30px;
-        margin-left: 90px;
-        font-weight: bolder;
-    }
-    
-    .l-izquierdo p{
-        display: flex;
-        justify-content: center;
-
-        margin-left: 80px;
-        padding: 5px;
-    }
-    
-    .l-izquierdo .rtw{
-        margin-top: 50px;
-        margin-left: 60px;
-    }
-    
-    .l-izquierdo .rtw-s{
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 60px;
-        margin-left: 60px;
-    }
-    
-    .l-izquierdo .b-rtw{
-        background-color: rgba(190, 50, 50, 0.815);
-        border-radius: 5px;
-        width: 100px;
-        padding: 5px;
-    }
-
-    .l-derecho .t-monu{
-        margin-left: 60px;
-        display: flex;
-        align-items: start;
-        flex-direction: column;
-    }
-    
-    .iframes{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .g-maps{
-        margin-left: 80px;
-        width: 450px;
-        height: 300px;
-        margin-bottom: 60px;
-    }
-    
-    .v-yt{
-        margin-left: 20px;
-        width: 180%;
-        height: 450px;
-    }
-
-    /* comienza footer theweeknd.html */
-
-    .soporte {
-        padding-top: 100px;
-        padding-left: 5px;
-        font-size: small;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-    }
-
-    .soporte p{
-        width: 150px;
-    }
-
-    .f-logo {
-        margin-top: 60px;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .s-l {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .hf {
-        width: 88%;
-        margin-top: 50px;
-        margin-left: 28px;
-    }
-
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1460px) {
-    .navbar-collapse {
-        width: 100%;
-        font-size: medium;
-    }
-
-    .ritmolive {
-        font-size: 18px;
-    }
-
-    .img-navbar {
-        height: 70px;
-        margin-left: 10px;
-    }
-
-    .input-index {
-        width: 30px;
-    }
-
-    .h-i{
-        background-image: url(assets/img/hombre-con-guitarra.jpg);
-        background-size: cover;
-        background-position: bottom;
-        height: 800px;
-    }
-
-    .jumbotron h1 {
-        padding-top: 100px;
-        margin-left: 50px;
-        font-size: 30px;
-    }
-
-    .jumbotron p {
-        margin-left: 50px;
-        font-size: 20px;
-        color: rgb(173, 172, 172);
-    }
-
-    .h {
-        width: 90%;
-        margin-top: 150px;
-        margin-left: 50px;
-    }
-
-    .jumbotron h3 {
-        font-size: 23px;
-        margin-left: 50px;
-    }
-
-    .jumbotron section p {
-        font-size: 18px;
-        margin-left: 50px;
-    }
-
-    /* comienza main index.html */
-
-    .titulo-principal {
-        display: flex;
-        justify-content: flex-start;
-        padding-left: 25px;
-        padding-top: 30px;
-    }
-
-    .principales {
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .theweeknd {
-        background-image: url(assets/img/TheWeeknd.jpg);
-        height: 300px;
-        background-size: cover;
-        background-position: top;
-    }
-
-    .b-w {
-        font-size: medium;
-        color: black;
-        text-decoration: none;
-    }
-
-    .tyler {
-        background-image: url(assets/img/tyler.jpg);
-        height: 300px;
-        background-size: cover;
-        background-position: top;
-    }
-
-    .t-t {
-        margin-top: 30px;
-        font-size: small;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .row {
-        padding: 45px;
-        gap: 5em;
-    }
-
-    /*comienza footer index.html */
-
-    .footer {
-        color: white;
-        background-color: #2E3840;
-        height: 600px;
-        margin-top: 150px;
-    }
-
-    .soporte {
-        margin-left: 50px;
-        padding-top: 100px;
-        padding-left: 5px;
-        font-size: small;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-    }
-
-    .b-soporte {
-        color: black;
-        background-color: white;
-        text-decoration: none;
-        margin-bottom: 30px;
-        padding: 1px 10px;
-        border-radius: 5px;
-    }
-
-    .soporte p {
-        margin-right: 20px;
-    }
-
-    .redes-sociales {
-        margin-top: 25px;
-        margin-left: 45px;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-
-    }
-
-    .f-logo {
-        margin-top: 90px;
-        margin-right: 150px;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .s-l {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .hf {
-        width: 88%;
-        margin-top: 50px;
-        margin-left: 28px;
-    }
-    
-    /* comienza main theweeknd.html */
-    
-    .dropdown{
-        margin: 40px 40px 40px 40px;
-    }
-    
-    .d-menus{
-        background-color: #2e384049;
-        height: 140px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .btn{
-        color: black;
-        background-color: white;
-        border-color: black;
-        width: 200px;
-        padding: 15px;
-        padding-left: 10px;
-    }
-    
-    .c-dm{
-        background-color: rgb(214, 44, 44);
-        color: white;
-        margin: 40px 40px 40px 40px;
-        width: 200px;
-        font-size: large;
-        border-radius: 5px;
-    }
-    
-    .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .l-izquierdo h1{
-        color: rgb(204, 14, 14);
-        margin-bottom: 50px;
-        font-weight: bolder;
-    }
-    
-    .l-izquierdo h4{
-        color: rgb(192, 9, 9);
-        padding-top: 30px;
-        padding-bottom: 30px;
-        font-size: large;
-        font-weight: bolder;
-    }
-    
-    .l-izquierdo p{
-        display: flex;
-        justify-content: stretch;
-        margin-left: 70px;
-        margin-right: 60px;
-        padding: 5px;
-    }
-    
-    .l-izquierdo .rtw{
-        margin-top: 50px;
-    }
-    
-    .l-izquierdo .rtw-s{
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 60px;
-    }
-    
-    .l-izquierdo .b-rtw{
-        background-color: rgba(190, 50, 50, 0.815);
-        border-radius: 5px;
-        width: 110px;
-        padding: 5px;
-    }
-    
-    
-    .l-derecho .t-monu{
-        display: flex;
-        align-items: start;
-        flex-direction: column;
-    }
-    
-    .iframes{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .g-maps{
-        width: 500px;
-        height: 350px;
-        margin-bottom: 60px;
-    }
-    
-    .v-yt{
-        width: 110%;
-        height: 450px;
-    }
-
-}
+/*# sourceMappingURL=style.css.map */
