@@ -317,6 +317,12 @@ h2 {
   background-color: rgba(0, 0, 0, 0.897);
 }
 
+.img-vort {
+  height: 300px;
+  width: 400px;
+}
+
+/* comienza main teatro.html */
 .img-banner {
   background-image: url(assets/img/teatro.jpg);
   background-size: cover;
@@ -347,7 +353,6 @@ h2 {
   border: 10px inset #fff;
 }
 
-/* comienza main teatro.html */
 .b-i {
   margin: 140px 0px 100px 50px;
   margin-top: 140px;
@@ -361,6 +366,11 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: start;
+}
+
+.b-i-1 img {
+  width: 450px;
+  height: 350px;
 }
 
 .b-d {
@@ -925,6 +935,78 @@ h2 {
     margin-top: 50px;
     margin-left: 28px;
   }
+  /* comienza main teatro.html */
+  .img-banner {
+    background-image: url(assets/img/teatro.jpg);
+    background-size: cover;
+    background-position: left;
+    height: 800px;
+    filter: blur(5px);
+  }
+  .img-vort {
+    height: 200px;
+    width: 80%;
+  }
+  .txt-banner {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 70%;
+    padding: 45px 0;
+    text-align: center;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-weight: bold;
+    border: 10px inset #fff;
+  }
+  .txt-banner h1 {
+    margin-top: 35px;
+  }
+  .b-i {
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .b-i-1 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .b-i-1 img {
+    height: 300px;
+    width: 110%;
+  }
+  .b-d {
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .l-derecho-teatro {
+    margin-top: 2px;
+    font-size: 18px;
+  }
+  .l-derecho-teatro h2 {
+    padding-left: 70px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  /* finaliza main teatro.html */
+  /* comienza footer teatro.html */
+  .redes-sociales {
+    margin-top: 25px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   /* comienza header index.html */
@@ -1163,6 +1245,78 @@ h2 {
     width: 100%;
     height: 450px;
   }
+  /* comienza main teatro.html */
+  .img-banner {
+    background-image: url(assets/img/teatro.jpg);
+    background-size: cover;
+    background-position: left;
+    height: 800px;
+    filter: blur(5px);
+  }
+  .img-vort {
+    height: 200px;
+    width: 80%;
+  }
+  .txt-banner {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 70%;
+    padding: 45px 0;
+    text-align: center;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-weight: bold;
+    border: 10px inset #fff;
+  }
+  .txt-banner h1 {
+    margin-top: 35px;
+  }
+  .b-i {
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .b-i-1 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .b-i-1 img {
+    height: 350px;
+    width: 100%;
+  }
+  .b-d {
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .l-derecho-teatro {
+    margin-top: 2px;
+    font-size: 18px;
+  }
+  .l-derecho-teatro h2 {
+    padding-left: 145px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  /* finaliza main teatro.html */
+  /* comienza footer teatro.html */
+  .redes-sociales {
+    margin-top: 25px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 768px) {
   /* comienza main theweeknd.html */
@@ -1271,6 +1425,82 @@ h2 {
   .soporte p {
     margin-bottom: 30px;
     margin-right: 20px;
+  }
+  /* comienza main teatro.html */
+  .img-banner {
+    background-image: url(assets/img/teatro.jpg);
+    background-size: cover;
+    background-position: left;
+    height: 800px;
+    filter: blur(5px);
+  }
+  .img-vort {
+    height: 300px;
+    width: 80%;
+  }
+  .txt-banner {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 70%;
+    padding: 45px 0;
+    text-align: center;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-weight: bold;
+    border: 10px inset #fff;
+  }
+  .txt-banner h1 {
+    margin-top: 35px;
+  }
+  .main-t .container-fluid .row {
+    margin-left: 30px;
+  }
+  .b-i {
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .b-i-1 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .b-i-1 img {
+    height: 350px;
+    width: 150%;
+  }
+  .b-d {
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .l-derecho-teatro {
+    width: 100%;
+    margin-top: 2px;
+    font-size: 18px;
+  }
+  .l-derecho-teatro h2 {
+    padding-left: 165px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  /* finaliza main teatro.html */
+  /* comienza footer teatro.html */
+  .redes-sociales {
+    margin-top: 25px;
+    margin-left: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -1532,6 +1762,88 @@ h2 {
     margin-top: 50px;
     margin-left: 28px;
   }
+  /* comienza main teatro.html */
+  .img-banner {
+    background-image: url(assets/img/teatro.jpg);
+    background-size: cover;
+    background-position: left;
+    height: 800px;
+    filter: blur(5px);
+  }
+  .img-vort {
+    height: 350px;
+    width: 80%;
+  }
+  .txt-banner {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 70%;
+    padding: 45px 0;
+    text-align: center;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-weight: bold;
+    border: 10px inset #fff;
+  }
+  .txt-banner h1 {
+    margin-top: 35px;
+  }
+  .txt-banner p {
+    width: 100%;
+  }
+  .b-i {
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .b-i-1 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .b-i-1 img {
+    height: 350px;
+    width: 140%;
+  }
+  .b-i-1 p {
+    padding-right: 325px;
+  }
+  .b-d {
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .l-derecho-teatro {
+    width: 100%;
+    margin-top: 2px;
+    font-size: 18px;
+  }
+  .l-derecho-teatro p {
+    width: 90%;
+  }
+  .l-derecho-teatro h2 {
+    padding-left: 250px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  /* finaliza main teatro.html */
+  /* comienza footer teatro.html */
+  .redes-sociales {
+    margin-top: 25px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1460px) {
   .navbar-collapse {
@@ -1748,6 +2060,114 @@ h2 {
   .v-yt {
     width: 110%;
     height: 450px;
+  }
+  /* comienza main teatro.html */
+  .img-banner {
+    background-image: url(assets/img/teatro.jpg);
+    background-size: cover;
+    background-position: left;
+    height: 800px;
+    filter: blur(5px);
+  }
+  .img-vort {
+    height: 350px;
+    width: 80%;
+  }
+  .txt-banner {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 70%;
+    padding: 45px 0;
+    text-align: center;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-weight: bold;
+    border: 10px inset #fff;
+  }
+  .txt-banner h1 {
+    margin-top: 35px;
+  }
+  .txt-banner p {
+    width: 100%;
+  }
+  .b-i {
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .b-i-1 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .b-i-1 img {
+    height: 350px;
+    width: 105%;
+  }
+  .b-i-1 p {
+    padding-right: 325px;
+  }
+  .b-d {
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .l-derecho-teatro {
+    padding-left: 55px;
+    width: 100%;
+    margin-top: 2px;
+    font-size: 18px;
+  }
+  .l-derecho-teatro p {
+    width: 100%;
+  }
+  .l-derecho-teatro h2 {
+    padding-left: 320px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  /* finaliza main teatro.html */
+  /* comienza footer teatro.html */
+  .redes-sociales {
+    margin-top: 25px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
+@media only screen and (min-width: 1460px) and (max-width: 1565px) {
+  /* main teatro.html */
+  .txt-banner {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 70%;
+    padding: 45px 0;
+    text-align: center;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-weight: bold;
+    border: 10px inset #fff;
+  }
+  .txt-banner h1 {
+    margin-top: 35px;
+  }
+  .txt-banner p {
+    width: 100%;
   }
 }
 
