@@ -1119,6 +1119,7 @@ h2 {
         flex-direction: row;
         justify-content: center;
     }
+    /* comienza soporte.html */
 
     /* comienza header soporte.html */
 
@@ -1128,8 +1129,8 @@ h2 {
     }
     
     .busqueda-s{
-        width: 60%;
-        margin-left: 50px;
+        width: 85%;
+        margin-left: 25px;
         margin-top: 80px;
         display: flex;
         flex-direction: column;
@@ -1143,7 +1144,7 @@ h2 {
     .container-s{
         height: 55px;
         margin-top: 20px;
-        width: 143%;
+        width: 100%;
         border: 2px solid ;
         padding: 0px 0px;
         border-radius: 50px;
@@ -1162,13 +1163,13 @@ h2 {
         background-color: rgba(0, 0, 0, 0.877);
         color: white;
         border-radius: 5px;
-        width: 80%;
+        width: 100px;
     }
     
     .search{
         border: none;
         height: 100%;
-        width: 100%;
+        width: 80%;
         margin-right: 100px;
         padding: 0px 5px;
         border-radius: 50px;
@@ -1218,7 +1219,7 @@ h2 {
     }
     
     .clientes{
-        margin-left: 60px;
+        margin-left: 40px;
         margin-top: 150px;
         width: 80%;
         border: 3px solid #000;
@@ -1229,8 +1230,9 @@ h2 {
     }
     
     .c-a{
+        width: 85%;
         padding-top: 150px;
-        padding-left: 40px;
+        padding-left: 25px;
         display: flex;
         justify-content: left;
         align-items: start;
@@ -1242,22 +1244,18 @@ h2 {
             font-size: 40px;
             font-weight: bold;
         }
-    }
-    
-    .c-a{
+
         p{
             margin-top: 20px;
             font-size: 18px;
         }
-    }
 
-    .c-a{
         a{
-            margin-left: 30px;
+            width: 30%;
         }
     }
-        
-    
+
+
     .img-c{
         width: 90%;
         border: 2px solid #000;
@@ -1291,17 +1289,18 @@ h2 {
 
         .soporte{
             font-size: medium;
-            width: 90%;
-            margin-left: 35px;
+            width: 80%;
+            margin-left: 30px;
         }
     }
     
     .redes-sociales-s{
-        width: 90%;
+        width: 65%;
         height: 55px;
         margin-top: 80px;
-        margin-left: 30px;
+        margin-left: 50px;
         display: flex;
+        flex-direction: row;
         justify-content: center;
     }
     
@@ -2704,15 +2703,20 @@ h2 {
         justify-content: flex-end;
     }
 
+    /* finaliza teatro.html */
+
+    /* comienza soporte.html */
+
     /* comienza header soporte.html */
 
     .h-s{
         background-color: #F9DBBB;
         height: 600px;
+        width: 100%;
     }
 
     .busqueda-s{
-        width: 60%;
+        width: 90%;
         margin-left: 50px;
         margin-top: 80px;
         display: flex;
@@ -2727,7 +2731,7 @@ h2 {
     .container-s{
         height: 55px;
         margin-top: 20px;
-        width: 143%;
+        width: 90%;
         border: 2px solid ;
         padding: 0px 0px;
         border-radius: 50px;
@@ -2746,13 +2750,13 @@ h2 {
         background-color: rgba(0, 0, 0, 0.877);
         color: white;
         border-radius: 5px;
-        width: 120px;
+        width: 100px;
     }
 
     .search{
         border: none;
         height: 100%;
-        width: 100%;
+        width: 40%;
         margin-right: 350px;
         padding: 0px 5px;
         border-radius: 50px;
@@ -2828,7 +2832,7 @@ h2 {
 
     .c-a{
         padding-top: 150px;
-        padding-left: 210px;
+        padding-left: 180px;
         display: flex;
         justify-content: left;
         align-items: start;
@@ -3290,7 +3294,7 @@ h2 {
     .container-s{
         height: 55px;
         margin-top: 20px;
-        width: 143%;
+        width: 142%;
         border: 2px solid ;
         padding: 0px 0px;
         border-radius: 50px;
@@ -3316,7 +3320,7 @@ h2 {
         border: none;
         height: 100%;
         width: 100%;
-        margin-right: 580px;
+        margin-right: 250px;
         padding: 0px 5px;
         border-radius: 50px;
         font-size: 13px;
@@ -3386,12 +3390,14 @@ h2 {
         border-radius: 10px;
         display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 10em;
     }
 
     .c-a{
+        width: 100%;
         padding-top: 150px;
-        padding-left: 250px;
+        padding-left: 200px;
         display: flex;
         justify-content: left;
         align-items: start;
@@ -3416,7 +3422,7 @@ h2 {
 
     
     .img-c{
-        width: 90%;
+        width: 80%;
         border: 2px solid #000;
         border-radius: 5px;
         margin: 2px 50px 120px 60px;
@@ -3464,33 +3470,4 @@ h2 {
     }
     
     /* finaliza footer soporte.html */
-}
-
-@media only screen and (min-width: 1460px) and (max-width: 1565px){
-    /* main teatro.html */
-
-    .txt-banner{
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 5;
-        width: 70%;
-        padding: 45px 0;
-        text-align: center;
-        border-top-left-radius: 70px;
-        border-bottom-right-radius: 70px;
-        background-color: rgba(0, 0, 0, 0.3);
-        color: #fff;
-        font-weight: bold;
-        border: 10px inset #fff;
-
-                h1{
-                    margin-top: 35px;
-                }
-
-                p{
-                    width: 100%;
-                }
-    }
 }
