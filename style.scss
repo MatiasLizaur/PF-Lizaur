@@ -14,7 +14,7 @@
 
 /* comienza header */
 
-.h-i{
+.h-i {
     background-image: url(assets/img/hombre-con-guitarra.jpg);
     background-size: cover;
     background-position: bottom;
@@ -218,7 +218,7 @@ h2 {
 
 /* comienza header */
 
-.h-tw{
+.h-tw {
     background-image: url(assets/img/TheWeeknd2.jpg);
     background-size: cover;
     background-position: top;
@@ -229,11 +229,11 @@ h2 {
 
 /* comienza main */
 
-.dropdown{
+.dropdown {
     margin: 40px 40px 40px 40px;
 }
 
-.d-menus{
+.d-menus {
     background-color: #2e384049;
     height: 140px;
     width: 100%;
@@ -241,7 +241,7 @@ h2 {
     justify-content: center;
 }
 
-.btn{
+.btn {
     color: black;
     background-color: white;
     border-color: black;
@@ -250,7 +250,7 @@ h2 {
     padding-left: 10px;
 }
 
-.c-dm{
+.c-dm {
     background-color: rgb(214, 44, 44);
     color: white;
     margin: 40px 40px 40px 40px;
@@ -259,25 +259,30 @@ h2 {
     border-radius: 5px;
 }
 
-.l-izquierdo h1, p, .p, h4, .rtw, .rtw-s{
+.l-izquierdo h1,
+p,
+.p,
+h4,
+.rtw,
+.rtw-s {
     display: flex;
     justify-content: center;
 }
 
-.l-izquierdo h1{
+.l-izquierdo h1 {
     color: rgb(204, 14, 14);
     margin-bottom: 50px;
     font-weight: bolder;
 }
 
-.l-izquierdo h4{
+.l-izquierdo h4 {
     color: rgb(192, 9, 9);
     padding-top: 30px;
     padding-bottom: 30px;
     font-weight: bolder;
 }
 
-.l-izquierdo p{
+.l-izquierdo p {
     display: flex;
     justify-content: stretch;
     margin-left: 70px;
@@ -285,17 +290,17 @@ h2 {
     padding: 5px;
 }
 
-.l-izquierdo .rtw{
+.l-izquierdo .rtw {
     margin-top: 50px;
 }
 
-.l-izquierdo .rtw-s{
+.l-izquierdo .rtw-s {
     display: flex;
     justify-content: space-evenly;
     margin-top: 60px;
 }
 
-.l-izquierdo .b-rtw{
+.l-izquierdo .b-rtw {
     background-color: rgba(190, 50, 50, 0.815);
     border-radius: 5px;
     width: 110px;
@@ -303,24 +308,24 @@ h2 {
 }
 
 
-.l-derecho .t-monu{
+.l-derecho .t-monu {
     display: flex;
     align-items: start;
     flex-direction: column;
 }
 
-.iframes{
+.iframes {
     display: flex;
     flex-direction: column;
 }
 
-.g-maps{
+.g-maps {
     width: 350px;
     height: 300px;
     margin-bottom: 60px;
 }
 
-.v-yt{
+.v-yt {
     width: 700px;
     height: 450px;
 }
@@ -331,18 +336,18 @@ h2 {
 
 /* comienza header */
 
-.h-te{
+.h-te {
     background-color: rgba(0, 0, 0, 0.897);
 }
 
-.img-vort{
+.img-vort {
     height: 300px;
     width: 400px;
 }
 
 /* comienza main teatro.html */
 
-.img-banner{
+.img-banner {
     background-image: url(assets/img/teatro.jpg);
     background-size: cover;
     background-position: left;
@@ -350,12 +355,12 @@ h2 {
     filter: blur(5px);
 }
 
-.img-vort{
+.img-vort {
     height: 300px;
     width: 400px;
 }
 
-.txt-banner{
+.txt-banner {
     position: absolute;
     top: 60%;
     left: 50%;
@@ -372,7 +377,7 @@ h2 {
     border: 10px inset #fff;
 }
 
-.b-i{
+.b-i {
     margin: 140px 0px 100px 50px;
     margin-top: 140px;
     margin-bottom: 100px;
@@ -381,21 +386,21 @@ h2 {
     justify-content: space-evenly;
 }
 
-.b-i-1{
+.b-i-1 {
     display: flex;
     flex-direction: column;
     align-items: start;
 }
 
-.b-i-1{
+.b-i-1 {
 
-    img{
+    img {
         width: 450px;
         height: 350px;
     }
 }
 
-.b-d{
+.b-d {
     margin: 140px 0px 100px 50px;
     margin-top: 140px;
     margin-bottom: 100px;
@@ -404,20 +409,21 @@ h2 {
     justify-content: space-evenly;
 }
 
-.b-i-1 h3{
+.b-i-1 h3 {
     font-weight: bold;
 }
 
-.b-i-1 h3, p{
+.b-i-1 h3,
+p {
     margin-top: 10px;
 }
 
-.l-derecho-teatro{
+.l-derecho-teatro {
     margin-top: 100px;
     font-size: 24px;
 }
 
-.l-derecho-teatro h2{
+.l-derecho-teatro h2 {
     margin-bottom: 40px;
     font-weight: bold;
     text-decoration: underline;
@@ -429,12 +435,12 @@ h2 {
 
 /* comienza header soporte.html */
 
-.h-s{
+.h-s {
     background-color: #F9DBBB;
     height: 550px;
 }
 
-.busqueda-s{
+.busqueda-s {
     width: 100%;
     margin-left: 330px;
     margin-top: 80px;
@@ -443,20 +449,20 @@ h2 {
     justify-content: left;
 }
 
-.busqueda-s h3{
+.busqueda-s h3 {
     font-weight: bold;
 }
 
-.container-s{
+.container-s {
     height: 42px;
     margin-top: 20px;
     width: 1200px;
-    border: 2px solid ;
+    border: 2px solid;
     padding: 0px 0px;
     border-radius: 50px;
 }
 
-.elements-container-s{
+.elements-container-s {
     background-color: white;
     border-radius: 30px;
     width: 100%;
@@ -464,14 +470,14 @@ h2 {
     vertical-align: middle;
 }
 
-.s-button{
+.s-button {
     background-color: rgba(0, 0, 0, 0.877);
     color: white;
     border-radius: 5px;
     width: 120px;
 }
 
-.search{
+.search {
     border: none;
     height: 100%;
     width: 100%;
@@ -483,7 +489,7 @@ h2 {
     font-weight: 500;
 }
 
-.busqueda-s p{
+.busqueda-s p {
     display: flex;
     justify-content: left;
     margin-left: 8px;
@@ -493,18 +499,19 @@ h2 {
 
 /* comienza main soporte.html */
 
-#l-abajo{
+#l-abajo {
     margin-top: 150px;
 }
 
-.row{
+.row {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 100px; 
+    margin-top: 100px;
 }
-.s-i{
+
+.s-i {
     margin-left: 250px;
-    padding: 12px 20px 25px 20px; 
+    padding: 12px 20px 25px 20px;
     border: 3px solid #000;
     border-radius: 10px;
     width: 400px;
@@ -513,12 +520,12 @@ h2 {
     align-items: start;
 }
 
-.s-i h4{
+.s-i h4 {
     margin-top: 20px;
     font-weight: bold;
 }
 
-.clientes{
+.clientes {
     margin-left: 200px;
     margin-top: 150px;
     width: 80%;
@@ -529,7 +536,7 @@ h2 {
     gap: 10em;
 }
 
-.c-a{
+.c-a {
     padding-top: 150px;
     padding-left: 140px;
     display: flex;
@@ -538,17 +545,17 @@ h2 {
     flex-direction: column;
 }
 
-.c-a h1{
+.c-a h1 {
     font-size: 40px;
     font-weight: bold;
 }
 
-.c-a p{
+.c-a p {
     margin-top: 20px;
     font-size: 18px;
 }
 
-.img-c{
+.img-c {
     border: 2px solid #000;
     border-radius: 5px;
     margin-right: 100px;
@@ -558,12 +565,12 @@ h2 {
     justify-content: right;
 }
 
-#img-call{
+#img-call {
     height: 380px;
     width: 600px;
 }
 
-.c-a button{
+.c-a button {
     font-size: 18px;
     font-weight: bold;
     margin-top: 50px;
@@ -576,12 +583,12 @@ h2 {
 
 /* comienza footer soporte.html */
 
-.s-l-s{
+.s-l-s {
     display: flex;
     justify-content: space-between;
 }
 
-.redes-sociales-s{
+.redes-sociales-s {
     height: 30px;
     margin-top: 6.5%;
     margin-right: 50px;
@@ -598,7 +605,7 @@ h2 {
 
 /* comienza header iniciar sesion */
 
-.h-ini{
+.h-ini {
     background-color: #2e3840d5;
 }
 
@@ -606,16 +613,16 @@ h2 {
 
 /* lado izquierdo */
 
-.main-ini{
+.main-ini {
     background-color: #F9DBBB;
     height: 1200px;
 }
 
-#row-ini{
+#row-ini {
     margin-top: 0px;
 }
 
-.l-izquierdo-ini{
+.l-izquierdo-ini {
     height: 70%;
     width: 45%;
     margin-top: 12%;
@@ -626,32 +633,45 @@ h2 {
     padding: 70px;
 }
 
-.l-izquierdo-ini h2{
+.l-izquierdo-ini h2 {
     font-weight: bold;
     margin-left: 17%;
 }
 
-#email, #password{
+#email, 
+#password {
     margin-top: 18px;
     margin-bottom: 12px;
     width: 60%;
     border-radius: 20px;
 }
 
-.recordarme{
+.recordarme {
+    display: flex;
+    flex-direction: row;
     margin-top: 30px;
     margin-bottom: 50px;
 }
 
-#o-contraseña{
+.input-recordarme{
+    display: flex;
+    flex-direction: row;
+    p{
+        margin-top: 17px;
+        margin-left: 8px;
+    }
+}
+
+#o-contraseña {
     background-color: rgba(255, 255, 255, 0.849);
     border: 1px solid #000;
     margin-left: 50%;
+    margin-top: 10px;
     font-weight: bold;
-    padding: 5px;
+    padding: 10px 5px 5px 5px;
 }
 
-.b-ini{
+.b-ini {
     background-color: white;
     width: 35%;
     /* padding: 10px; */
@@ -660,14 +680,14 @@ h2 {
     font-size: x-large;
 }
 
-.e-ini{
+.e-ini {
     font-weight: bold;
     font-size: larger;
 }
 
 /* lado derecho */
 
-.l-derecho-ini{
+.l-derecho-ini {
     height: 70%;
     width: 45%;
     margin-top: 12%;
@@ -678,27 +698,33 @@ h2 {
     padding: 70px;
 }
 
-.l-derecho-ini h2{
+.l-derecho-ini h2 {
     font-weight: bold;
     margin-left: 17%;
 }
 
-#name, #date, #sexo, #password-d, #password-r{
+#name,
+#date,
+#sexo,
+#password-d,
+#password-r {
     margin-top: 18px;
     margin-bottom: 12px;
     width: 60%;
     border-radius: 20px;
 }
 
-#name, #date, #password-r{
+#name,
+#date,
+#password-r {
     width: 60%;
 }
 
-#sexo-g{
+#sexo-g {
     width: 4%;
 }
 
-.b-ini-d{
+.b-ini-d {
     margin-top: 60px;
     font-weight: bold;
     background-color: white;
@@ -709,7 +735,7 @@ h2 {
 
 /* comienza footer iniciar sesion */
 
-.footer-ini{
+.footer-ini {
     color: white;
     background-color: #2E3840;
     height: 300px;
@@ -744,7 +770,7 @@ h2 {
         width: 30px;
     }
 
-    .h-i{
+    .h-i {
         background-image: url(assets/img/hombre-con-guitarra.jpg);
         background-size: cover;
         background-position: left;
@@ -896,7 +922,7 @@ h2 {
 
     /* comienza header theweeknd.html */
 
-    .h-tw{
+    .h-tw {
         background-image: url(assets/img/TheWeeknd2.jpg);
         background-size: cover;
         background-position: top;
@@ -906,15 +932,15 @@ h2 {
 
     /* comienza main theweeknd.html */
 
-    .dropdown{
+    .dropdown {
         margin: 40px 40px 40px 40px;
     }
 
-    #dropdown1{
+    #dropdown1 {
         margin-top: 300px;
     }
 
-    .d-menus{
+    .d-menus {
         background-color: #2e384049;
         height: 500px;
         width: 100%;
@@ -922,8 +948,8 @@ h2 {
         flex-direction: column;
         align-items: center;
     }
-    
-    .btn{
+
+    .btn {
         color: black;
         background-color: white;
         border-color: black;
@@ -931,8 +957,8 @@ h2 {
         padding: 5px;
         padding-left: 10px;
     }
-    
-    .c-dm{
+
+    .c-dm {
         background-color: rgb(214, 44, 44);
         color: white;
         padding: 5px 5px;
@@ -942,70 +968,75 @@ h2 {
         border-radius: 5px;
     }
 
-    .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s{
+    .l-izquierdo h1,
+    p,
+    .p,
+    h4,
+    .rtw,
+    .rtw-s {
         display: flex;
         justify-content: center;
     }
-    
-    .l-izquierdo h1{
+
+    .l-izquierdo h1 {
         color: rgb(204, 14, 14);
         margin-bottom: 50px;
         margin-left: 35px;
         font-weight: bolder;
     }
-    
-    .l-izquierdo h4{
+
+    .l-izquierdo h4 {
         color: rgb(192, 9, 9);
         padding-top: 30px;
         padding-bottom: 30px;
         margin-left: 35px;
         font-weight: bolder;
     }
-    
-    .l-izquierdo p{
+
+    .l-izquierdo p {
         display: flex;
         justify-content: center;
         margin-left: 70px;
         padding: 5px;
     }
-    
-    .l-izquierdo .rtw{
+
+    .l-izquierdo .rtw {
         margin-top: 50px;
         margin-left: 50px;
     }
-    
-    .l-izquierdo .rtw-s{
+
+    .l-izquierdo .rtw-s {
         display: flex;
         justify-content: space-evenly;
         margin-top: 60px;
         margin-left: 10px;
     }
-    
-    .l-izquierdo .b-rtw{
+
+    .l-izquierdo .b-rtw {
         background-color: rgba(190, 50, 50, 0.815);
         border-radius: 5px;
         width: 100px;
         padding: 5px;
     }
 
-    .l-derecho .t-monu{
+    .l-derecho .t-monu {
         display: flex;
         align-items: start;
         flex-direction: column;
     }
-    
-    .iframes{
+
+    .iframes {
         display: flex;
         flex-direction: column;
     }
-    
-    .g-maps{
+
+    .g-maps {
         width: 90%;
         height: 300px;
         margin-bottom: 60px;
     }
-    
-    .v-yt{
+
+    .v-yt {
         width: 100%;
         height: 450px;
     }
@@ -1036,20 +1067,20 @@ h2 {
 
     /* comienza main teatro.html */
 
-    .img-banner{
+    .img-banner {
         background-image: url(assets/img/teatro.jpg);
         background-size: cover;
         background-position: left;
         height: 800px;
         filter: blur(5px);
     }
-    
-    .img-vort{
+
+    .img-vort {
         height: 200px;
         width: 80%;
     }
-    
-    .txt-banner{
+
+    .txt-banner {
         position: absolute;
         top: 100%;
         left: 50%;
@@ -1065,43 +1096,43 @@ h2 {
         font-weight: bold;
         border: 10px inset #fff;
 
-                h1{
-                    margin-top: 35px;
-                }
+        h1 {
+            margin-top: 35px;
+        }
     }
 
-    .b-i{
+    .b-i {
         margin-left: 2px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
     }
 
-    .b-i-1{
+    .b-i-1 {
         margin-top: 20px;
         display: flex;
         flex-direction: column;
         align-items: start;
 
-        img{
+        img {
             height: 300px;
             width: 110%;
         }
     }
 
-    .b-d{
+    .b-d {
         margin-left: 2px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
     }
 
-    .l-derecho-teatro{
+    .l-derecho-teatro {
         margin-top: 2px;
         font-size: 18px;
     }
 
-    .l-derecho-teatro h2{
+    .l-derecho-teatro h2 {
         padding-left: 70px;
         margin-bottom: 40px;
         font-weight: bold;
@@ -1119,16 +1150,17 @@ h2 {
         flex-direction: row;
         justify-content: center;
     }
+
     /* comienza soporte.html */
 
     /* comienza header soporte.html */
 
-    .h-s{
+    .h-s {
         background-color: #F9DBBB;
         height: 600px;
     }
-    
-    .busqueda-s{
+
+    .busqueda-s {
         width: 85%;
         margin-left: 25px;
         margin-top: 80px;
@@ -1136,21 +1168,21 @@ h2 {
         flex-direction: column;
         justify-content: left;
     }
-    
-    .busqueda-s h3{
+
+    .busqueda-s h3 {
         font-weight: bold;
     }
-    
-    .container-s{
+
+    .container-s {
         height: 55px;
         margin-top: 20px;
         width: 100%;
-        border: 2px solid ;
+        border: 2px solid;
         padding: 0px 0px;
         border-radius: 50px;
     }
 
-    .elements-container-s{
+    .elements-container-s {
         background-color: white;
         border-radius: 30px;
         width: 100%;
@@ -1158,15 +1190,15 @@ h2 {
         vertical-align: middle;
     }
 
-    .s-button{
+    .s-button {
         font-size: smaller;
         background-color: rgba(0, 0, 0, 0.877);
         color: white;
         border-radius: 5px;
         width: 100px;
     }
-    
-    .search{
+
+    .search {
         border: none;
         height: 100%;
         width: 80%;
@@ -1177,34 +1209,34 @@ h2 {
         color: #424242;
         font-weight: 500;
     }
-    
-    .busqueda-s p{
+
+    .busqueda-s p {
         display: flex;
         justify-content: left;
         margin-left: 8px;
     }
-    
+
     /* finaliza header soporte.html */
 
     /* comienza main soporte.html */
 
-    #l-abajo{
+    #l-abajo {
         margin-top: 150px;
     }
-    
-    .main-s{
-        .container-fluid{
-            .row{
+
+    .main-s {
+        .container-fluid {
+            .row {
                 display: flex;
                 justify-content: space-evenly;
-                margin-top: 100px; 
+                margin-top: 100px;
             }
         }
     }
 
-    .s-i{
+    .s-i {
         margin-left: 10px;
-        padding: 12px 20px 25px 20px; 
+        padding: 12px 20px 25px 20px;
         border: 3px solid #000;
         border-radius: 10px;
         width: 100%;
@@ -1212,13 +1244,13 @@ h2 {
         flex-direction: column;
         align-items: start;
     }
-    
-    .s-i h4{
+
+    .s-i h4 {
         margin-top: 20px;
         font-weight: bold;
     }
-    
-    .clientes{
+
+    .clientes {
         margin-left: 40px;
         margin-top: 150px;
         width: 80%;
@@ -1228,8 +1260,8 @@ h2 {
         flex-direction: column;
         gap: 10em;
     }
-    
-    .c-a{
+
+    .c-a {
         width: 85%;
         padding-top: 150px;
         padding-left: 25px;
@@ -1238,25 +1270,25 @@ h2 {
         align-items: start;
         flex-direction: column;
     }
-    
-    .c-a{
-        h1{
+
+    .c-a {
+        h1 {
             font-size: 40px;
             font-weight: bold;
         }
 
-        p{
+        p {
             margin-top: 20px;
             font-size: 18px;
         }
 
-        a{
+        a {
             width: 30%;
         }
     }
 
 
-    .img-c{
+    .img-c {
         width: 90%;
         border: 2px solid #000;
         border-radius: 5px;
@@ -1265,12 +1297,12 @@ h2 {
         justify-content: right;
     }
 
-    #img-call{
+    #img-call {
         height: 300px;
         width: 100%;
     }
-    
-    .c-a button{
+
+    .c-a button {
         font-size: 18px;
         font-weight: bold;
         margin-top: 50px;
@@ -1283,18 +1315,18 @@ h2 {
 
     /* comienza footer soporte.html */
 
-    .s-l-s{
+    .s-l-s {
         display: flex;
         flex-direction: column;
 
-        .soporte{
+        .soporte {
             font-size: medium;
             width: 80%;
             margin-left: 30px;
         }
     }
-    
-    .redes-sociales-s{
+
+    .redes-sociales-s {
         width: 65%;
         height: 55px;
         margin-top: 80px;
@@ -1303,8 +1335,158 @@ h2 {
         flex-direction: row;
         justify-content: center;
     }
-    
+
     /* finaliza footer soporte.html */
+
+    /* comienza iniciar sesion */
+
+    /* comienza header iniciar sesion */
+
+    .h-ini {
+        background-color: #2e3840d5;
+    }
+
+    /* comienza main iniciar sesion */
+
+    /* lado izquierdo */
+
+    .main-ini {
+
+        background-color: #F9DBBB;
+        height: 2000px;
+    }
+
+    #row-ini {
+        margin-top: 0px;
+    }
+
+    .l-izquierdo-ini {
+        height: 70%;
+        width: 100%;
+        margin-top: 12%;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        border: 1px solid #000;
+        padding: 70px;
+    }
+
+    .l-izquierdo-ini h2 {
+        width: 95%;
+        margin: 0px 10px 30px 30%;
+        padding-left: 2px;
+        font-weight: bold;
+    }
+
+    #email, 
+    #password {
+        margin-top: 18px;
+        margin-bottom: 12px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .d-l-iz{
+        margin-left: -45px;
+    }
+
+    .recordarme {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .input-recordarme{
+        margin-left: 5px;
+        display: flex;
+        flex-direction: row;
+        p{
+            margin-top: 17px;
+            margin-left: 8px;
+        }
+    }
+    
+    #o-contraseña {
+        background-color: rgba(255, 255, 255, 0.849);
+        border: 1px solid #000;
+        margin-left: 1%;
+        margin-top: 10px;
+        font-size: small;
+        font-weight: bold;
+        padding: 10px 5px 5px 5px;
+        width: 180px;
+    }
+    
+    .b-ini {
+        background-color: white;
+        width: 65%;
+        /* padding: 10px; */
+        margin-left: 28%;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    /* lado derecho */
+
+    .l-derecho-ini {
+        height: 70%;
+        width: 100%;
+        margin-top: 12%;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        border: 1px solid #000;
+        padding: 70px;
+    }
+
+    .l-derecho-ini h2 {
+        width: 95%;
+        margin: 0px 10px 30px 30%;
+        padding-left: 2px;
+        font-weight: bold;
+    }
+
+    .e-ini {
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    #name, #date, #sexo, #password-d, #password-r {
+        margin-top: 18px;
+        margin-bottom: 12px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    #sexo-g {
+        margin-left: 25px;
+        width: 10%;
+    }
+
+    .d-l-de{
+        margin-left: -45px;
+    }
+
+    .b-ini-d {
+        margin-top: 60px;
+        background-color: white;
+        width: 65%;
+        /* padding: 10px; */
+        margin-left: 28%;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    /* comienza footer iniciar sesion */
+
+    .footer-ini {
+        color: white;
+        background-color: #2E3840;
+        height: 500px;
+    }
+
+    /* finaliza footer iniciar sesion */
 
 
 }
@@ -1331,7 +1513,7 @@ h2 {
         width: 30px;
     }
 
-    .h-i{
+    .h-i {
         background-image: url(assets/img/hombre-con-guitarra.jpg);
         background-size: cover;
         background-position: left;
@@ -1478,7 +1660,7 @@ h2 {
 
     /* comienza header theweeknd.html */
 
-    .h-tw{
+    .h-tw {
         background-image: url(assets/img/TheWeeknd2.jpg);
         background-size: cover;
         background-position: top;
@@ -1490,15 +1672,15 @@ h2 {
 
     /* comienza main theweeknd.html */
 
-    .dropdown{
+    .dropdown {
         margin: 40px 40px 40px 40px;
     }
 
-    #dropdown1{
+    #dropdown1 {
         margin-top: 300px;
     }
 
-    .d-menus{
+    .d-menus {
         background-color: #2e384049;
         height: 500px;
         width: 100%;
@@ -1506,8 +1688,8 @@ h2 {
         flex-direction: column;
         align-items: center;
     }
-    
-    .btn{
+
+    .btn {
         color: black;
         background-color: white;
         border-color: black;
@@ -1515,8 +1697,8 @@ h2 {
         padding: 5px;
         padding-left: 10px;
     }
-    
-    .c-dm{
+
+    .c-dm {
         background-color: rgb(214, 44, 44);
         color: white;
         padding: 5px 5px;
@@ -1526,92 +1708,97 @@ h2 {
         border-radius: 5px;
     }
 
-    .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s{
+    .l-izquierdo h1,
+    p,
+    .p,
+    h4,
+    .rtw,
+    .rtw-s {
         display: flex;
         justify-content: center;
     }
-    
-    .l-izquierdo h1{
+
+    .l-izquierdo h1 {
         color: rgb(204, 14, 14);
         margin-bottom: 50px;
         margin-left: 35px;
         font-weight: bolder;
     }
-    
-    .l-izquierdo h4{
+
+    .l-izquierdo h4 {
         color: rgb(192, 9, 9);
         padding-top: 30px;
         padding-bottom: 30px;
         margin-left: 80px;
         font-weight: bolder;
     }
-    
-    .l-izquierdo p{
+
+    .l-izquierdo p {
         display: flex;
         justify-content: left;
         width: 80%;
         margin-left: 70px;
         padding: 5px;
     }
-    
-    .l-izquierdo .rtw{
+
+    .l-izquierdo .rtw {
         margin-top: 50px;
         margin-left: 50px;
     }
-    
-    .l-izquierdo .rtw-s{
+
+    .l-izquierdo .rtw-s {
         display: flex;
         justify-content: space-evenly;
         gap: 1em;
         margin-top: 60px;
         margin-left: 10px;
     }
-    
-    .l-izquierdo .b-rtw{
+
+    .l-izquierdo .b-rtw {
         background-color: rgba(190, 50, 50, 0.815);
         border-radius: 5px;
         width: 100px;
         padding: 5px;
     }
 
-    .l-derecho .t-monu{
+    .l-derecho .t-monu {
         display: flex;
         align-items: start;
         flex-direction: column;
     }
-    
-    .iframes{
+
+    .iframes {
         display: flex;
         flex-direction: column;
     }
-    
-    .g-maps{
+
+    .g-maps {
         width: 90%;
         height: 300px;
         margin-bottom: 60px;
     }
-    
-    .v-yt{
+
+    .v-yt {
         width: 100%;
         height: 450px;
     }
 
-    /* comienza main teatro.html */ 
+    /* comienza main teatro.html */
 
-    .img-banner{
+    .img-banner {
         background-image: url(assets/img/teatro.jpg);
         background-size: cover;
         background-position: left;
         height: 800px;
         filter: blur(5px);
     }
-    
-    .img-vort{
+
+    .img-vort {
         height: 200px;
         width: 80%;
     }
-    
-    .txt-banner{
+
+    .txt-banner {
         position: absolute;
         top: 100%;
         left: 50%;
@@ -1627,43 +1814,43 @@ h2 {
         font-weight: bold;
         border: 10px inset #fff;
 
-                h1{
-                    margin-top: 35px;
-                }
+        h1 {
+            margin-top: 35px;
+        }
     }
 
-    .b-i{
+    .b-i {
         margin-left: 2px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
     }
 
-    .b-i-1{
+    .b-i-1 {
         margin-top: 20px;
         display: flex;
         flex-direction: column;
         align-items: start;
 
-        img{
+        img {
             height: 350px;
             width: 100%;
         }
     }
 
-    .b-d{
+    .b-d {
         margin-left: 2px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
     }
 
-    .l-derecho-teatro{
+    .l-derecho-teatro {
         margin-top: 2px;
         font-size: 18px;
     }
 
-    .l-derecho-teatro h2{
+    .l-derecho-teatro h2 {
         padding-left: 145px;
         margin-bottom: 40px;
         font-weight: bold;
@@ -1671,7 +1858,7 @@ h2 {
     }
 
     /* finaliza main teatro.html */
-    
+
     /* comienza footer teatro.html */
 
     .redes-sociales {
@@ -1682,431 +1869,14 @@ h2 {
         justify-content: center;
     }
 
-        /* comienza header soporte.html */
-
-        .h-s{
-            background-color: #F9DBBB;
-            height: 600px;
-        }
-        
-        .busqueda-s{
-            width: 60%;
-            margin-left: 50px;
-            margin-top: 80px;
-            display: flex;
-            flex-direction: column;
-            justify-content: left;
-        }
-        
-        .busqueda-s h3{
-            font-weight: bold;
-        }
-        
-        .container-s{
-            height: 55px;
-            margin-top: 20px;
-            width: 143%;
-            border: 2px solid ;
-            padding: 0px 0px;
-            border-radius: 50px;
-        }
-    
-        .elements-container-s{
-            background-color: white;
-            border-radius: 30px;
-            width: 100%;
-            height: 100%;
-            vertical-align: middle;
-        }
-    
-        .s-button{
-            font-size: smaller;
-            background-color: rgba(0, 0, 0, 0.877);
-            color: white;
-            border-radius: 5px;
-            width: 80%;
-        }
-        
-        .search{
-            border: none;
-            height: 100%;
-            width: 100%;
-            margin-right: 100px;
-            padding: 0px 5px;
-            border-radius: 50px;
-            font-size: 13px;
-            color: #424242;
-            font-weight: 500;
-        }
-        
-        .busqueda-s p{
-            display: flex;
-            justify-content: left;
-            margin-left: 8px;
-        }
-        
-        /* finaliza header soporte.html */
-    
-        /* comienza main soporte.html */
-    
-        #l-abajo{
-            margin-top: 150px;
-        }
-        
-        .main-s{
-    
-            .container-fluid{
-    
-                .row{
-                    display: flex;
-                    justify-content: space-evenly;
-                    margin-top: 100px; 
-            }
-        }
-        }
-    
-        .s-i{
-            margin-left: 10px;
-            padding: 12px 20px 25px 20px; 
-            border: 3px solid #000;
-            border-radius: 10px;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: start;
-        }
-        
-        .s-i h4{
-            margin-top: 20px;
-            font-weight: bold;
-        }
-        
-        .clientes{
-            margin-left: 60px;
-            margin-top: 150px;
-            width: 80%;
-            border: 3px solid #000;
-            border-radius: 10px;
-            display: flex;
-            flex-direction: column;
-            gap: 10em;
-        }
-        
-        .c-a{
-            padding-top: 150px;
-            padding-left: 50px;
-            display: flex;
-            justify-content: left;
-            align-items: start;
-            flex-direction: column;
-        }
-        
-        .c-a{
-            h1{
-                font-size: 40px;
-                font-weight: bold;
-            }
-        }
-        
-        .c-a{
-            p{
-                margin-top: 20px;
-                font-size: 18px;
-            }
-        }
-    
-        .c-a{
-            a{
-                margin-left: 35px;
-            }
-        }
-            
-        
-        .img-c{
-            width: 90%;
-            border: 2px solid #000;
-            border-radius: 5px;
-            margin: 2px 50px 150px 15px;
-            display: flex;
-            justify-content: right;
-        }
-    
-        #img-call{
-            height: 300px;
-            width: 100%;
-        }
-        
-        .c-a button{
-            font-size: 18px;
-            font-weight: bold;
-            margin-top: 50px;
-            background-color: #F9DBBB;
-            border-radius: 10px;
-            padding: 10px 50px 10px 50px;
-        }
-    
-        /* finaliza main soporte.html */
-    
-        /* comienza footer soporte.html */
-    
-        .s-l-s{
-            display: flex;
-            flex-direction: column;
-    
-            .soporte{
-                font-size: medium;
-                width: 90%;
-                margin-left: 35px;
-            }
-        }
-        
-        .redes-sociales-s{
-            width: 90%;
-            height: 55px;
-            margin-top: 80px;
-            margin-left: 35px;
-            display: flex;
-            justify-content: center;
-        }
-        
-        /* finaliza footer soporte.html */
-}
-
-@media only screen and (min-width: 576px) and (max-width: 768px) {
-
-    /* comienza main theweeknd.html */
-
-    .dropdown{
-        margin: 40px 40px 40px 40px;
-    }
-
-    #dropdown1{
-        margin-top: 300px;
-    }
-
-    .d-menus{
-        background-color: #2e384049;
-        height: 500px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .btn{
-        color: black;
-        background-color: white;
-        border-color: black;
-        width: 200px;
-        padding: 5px;
-        padding-left: 10px;
-    }
-    
-    .c-dm{
-        background-color: rgb(214, 44, 44);
-        color: white;
-        margin-bottom: 300px;
-        width: 200px;
-        font-size: large;
-        border-radius: 5px;
-    }
-
-    .row{
-        margin-left: 70px;
-        display: flex;
-        justify-content: left;
-    }
-
-    .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .l-izquierdo h1{
-        color: rgb(204, 14, 14);
-        width: 450px;
-        margin-bottom: 50px;
-        margin-left: 0px;
-        font-size: xx-large;
-        font-weight: bolder;
-    }
-    
-    .l-izquierdo h4{
-        color: rgb(192, 9, 9);
-        padding-top: 30px;
-        padding-bottom: 30px;
-        margin-left: 35px;
-        width: 350px;
-        font-size: large;
-        font-weight: bolder;
-    }
-    
-    .l-izquierdo p{
-        display: flex;
-        justify-content: left;
-        font-size: medium;
-        width: 350px;
-        margin-left: 10px;
-        padding: 5px;
-    }
-    
-    .l-izquierdo .rtw{
-        width: 340px;
-        margin-top: 50px;
-        margin-left: 5px;
-    }
-    
-    .l-izquierdo .rtw-s{
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 60px;
-        margin-left: 150px;
-    }
-    
-    .l-izquierdo .b-rtw{
-        background-color: rgba(190, 50, 50, 0.815);
-        border-radius: 5px;
-        width: 100px;
-        padding: 5px;
-    }
-
-    .l-derecho .t-monu{
-        width: 350px;
-        display: flex;
-        align-items: start;
-        flex-direction: column;
-    }
-    
-    .iframes{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .g-maps{
-        width: 180%;
-        height: 300px;
-        margin-bottom: 60px;
-    }
-    
-    .v-yt{
-        width: 200%;
-        height: 450px;
-    }
-
-    /* comienza footer theweeknd.html */
-
-    .soporte p {
-        margin-bottom: 30px;
-        margin-right: 20px;
-    }
-
-    /* comienza main teatro.html */ 
-
-    .img-banner{
-        background-image: url(assets/img/teatro.jpg);
-        background-size: cover;
-        background-position: left;
-        height: 800px;
-        filter: blur(5px);
-    }
-    
-    .img-vort{
-        height: 300px;
-        width: 80%;
-    }
-    
-    .txt-banner{
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 5;
-        width: 70%;
-        padding: 45px 0;
-        text-align: center;
-        border-top-left-radius: 70px;
-        border-bottom-right-radius: 70px;
-        background-color: rgba(0, 0, 0, 0.3);
-        color: #fff;
-        font-weight: bold;
-        border: 10px inset #fff;
-
-                h1{
-                    margin-top: 35px;
-                }
-    }
-
-    .main-t{
-
-        .container-fluid{
-
-            .row{
-                margin-left: 30px;
-            }
-        }
-        
-    }
-
-    .b-i{
-        margin-left: 2px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-
-    .b-i-1{
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-
-        img{
-            height: 350px;
-            width: 150%;
-        }
-    }
-
-    .b-d{
-        margin-left: 2px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-
-    .l-derecho-teatro{
-        width: 100%;
-        margin-top: 2px;
-        font-size: 18px;
-    }
-
-    .l-derecho-teatro h2{
-        padding-left: 165px;
-        margin-bottom: 40px;
-        font-weight: bold;
-        text-decoration: underline;
-    }
-
-    /* finaliza main teatro.html */
-    
-    /* comienza footer teatro.html */
-
-    .redes-sociales {
-        margin-top: 25px;
-        margin-left: 65px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
     /* comienza header soporte.html */
 
-    .h-s{
+    .h-s {
         background-color: #F9DBBB;
         height: 600px;
     }
 
-    .busqueda-s{
+    .busqueda-s {
         width: 60%;
         margin-left: 50px;
         margin-top: 80px;
@@ -2115,20 +1885,20 @@ h2 {
         justify-content: left;
     }
 
-    .busqueda-s h3{
+    .busqueda-s h3 {
         font-weight: bold;
     }
 
-    .container-s{
+    .container-s {
         height: 55px;
         margin-top: 20px;
         width: 143%;
-        border: 2px solid ;
+        border: 2px solid;
         padding: 0px 0px;
         border-radius: 50px;
     }
 
-    .elements-container-s{
+    .elements-container-s {
         background-color: white;
         border-radius: 30px;
         width: 100%;
@@ -2136,7 +1906,7 @@ h2 {
         vertical-align: middle;
     }
 
-    .s-button{
+    .s-button {
         font-size: smaller;
         background-color: rgba(0, 0, 0, 0.877);
         color: white;
@@ -2144,7 +1914,7 @@ h2 {
         width: 80%;
     }
 
-    .search{
+    .search {
         border: none;
         height: 100%;
         width: 100%;
@@ -2155,106 +1925,98 @@ h2 {
         color: #424242;
         font-weight: 500;
     }
-            
-    .busqueda-s p{
+
+    .busqueda-s p {
         display: flex;
         justify-content: left;
         margin-left: 8px;
     }
-    
+
     /* finaliza header soporte.html */
 
     /* comienza main soporte.html */
 
-    #l-abajo{
+    #l-abajo {
         margin-top: 150px;
     }
-            
-    .main-s{
-        .container-fluid{
-            .row{
+
+    .main-s {
+        .container-fluid {
+            .row {
                 display: flex;
                 justify-content: space-evenly;
-                margin-top: 100px; 
-                margin-left: 2px;
-                padding-right: 200px;
-                padding-left: 2px;
-                width: 100%;
+                margin-top: 100px;
             }
         }
     }
 
-    .s-i{
-        margin-left: 2px;
-        margin-right: 40px;
-        padding: 12px 20px 25px 20px; 
+    .s-i {
+        margin-left: 10px;
+        padding: 12px 20px 25px 20px;
         border: 3px solid #000;
         border-radius: 10px;
-        width: 200%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: start;
     }
-            
-    .s-i h4{
+
+    .s-i h4 {
         margin-top: 20px;
         font-weight: bold;
     }
-            
-    .clientes{
+
+    .clientes {
         margin-left: 60px;
         margin-top: 150px;
-        width: 85%;
+        width: 80%;
         border: 3px solid #000;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
         gap: 10em;
     }
-            
-    .c-a{
+
+    .c-a {
+
         padding-top: 150px;
-        padding-left: 60px;
+        padding-left: 50px;
         display: flex;
         justify-content: left;
         align-items: start;
         flex-direction: column;
-    }
 
-    .c-a{
-        h1{
+        h1 {
             font-size: 40px;
             font-weight: bold;
-            margin-left: 20px;
         }
-    }
 
-    .c-a{
-        p{
+        p {
             margin-top: 20px;
             font-size: 18px;
         }
 
-        a{
-            margin-left: 140px;
+        a {
+            margin-left: 35px;
         }
+
     }
-    
-    .img-c{
+
+    .img-c {
         width: 90%;
         border: 2px solid #000;
         border-radius: 5px;
-        margin: 2px 50px 150px 35px;
+        margin: 2px 50px 150px 15px;
         display: flex;
         justify-content: right;
     }
 
-    #img-call{
+    #img-call {
         height: 300px;
         width: 100%;
     }
 
-    .c-a button{
+    .c-a button {
         font-size: 18px;
         font-weight: bold;
         margin-top: 50px;
@@ -2267,18 +2029,591 @@ h2 {
 
     /* comienza footer soporte.html */
 
-    .s-l-s{
+    .s-l-s {
+
         display: flex;
         flex-direction: column;
 
-        .soporte{
+        .soporte {
+            font-size: medium;
+            width: 90%;
+            margin-left: 35px;
+        }
+    }
+
+    .redes-sociales-s {
+        width: 90%;
+        height: 55px;
+        margin-top: 80px;
+        margin-left: 35px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* finaliza footer soporte.html */
+
+        /* comienza iniciar sesion */
+
+    /* comienza header iniciar sesion */
+
+    .h-ini {
+        background-color: #2e3840d5;
+    }
+
+    /* comienza main iniciar sesion */
+
+    /* lado izquierdo */
+
+    .main-ini {
+
+        background-color: #F9DBBB;
+        height: 2000px;
+    }
+
+    #row-ini {
+        margin-top: 0px;
+    }
+
+    .l-izquierdo-ini {
+        height: 70%;
+        width: 100%;
+        margin-top: 12%;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        border: 1px solid #000;
+        padding: 70px;
+    }
+
+    .l-izquierdo-ini h2 {
+        width: 95%;
+        margin: 0px 10px 30px 30%;
+        padding-left: 2px;
+        font-weight: bold;
+    }
+
+    #email, 
+    #password {
+        margin-top: 18px;
+        margin-bottom: 12px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .d-l-iz{
+        margin-left: -45px;
+    }
+
+    .recordarme {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .input-recordarme{
+        margin-left: 5px;
+        display: flex;
+        flex-direction: row;
+        p{
+            margin-top: 17px;
+            margin-left: 8px;
+        }
+    }
+    
+    #o-contraseña {
+        background-color: rgba(255, 255, 255, 0.849);
+        border: 1px solid #000;
+        margin-left: 1%;
+        margin-top: 10px;
+        font-size: small;
+        font-weight: bold;
+        padding: 10px 5px 5px 5px;
+        width: 180px;
+    }
+    
+    .b-ini {
+        background-color: white;
+        width: 65%;
+        /* padding: 10px; */
+        margin-left: 28%;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    /* lado derecho */
+
+    .l-derecho-ini {
+        height: 70%;
+        width: 100%;
+        margin-top: 12%;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        border: 1px solid #000;
+        padding: 70px;
+    }
+
+    .l-derecho-ini h2 {
+        width: 95%;
+        margin: 0px 10px 30px 30%;
+        padding-left: 2px;
+        font-weight: bold;
+    }
+
+    .e-ini {
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    #name,
+    #date,
+    #sexo,
+    #password-d,
+    #password-r {
+        margin-top: 18px;
+        margin-bottom: 12px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    #sexo-g {
+        margin-left: 25px;
+        width: 10%;
+    }
+
+    .d-l-de{
+        margin-left: -45px;
+    }
+
+    .b-ini-d {
+        margin-top: 60px;
+        background-color: white;
+        width: 65%;
+        /* padding: 10px; */
+        margin-left: 28%;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    /* comienza footer iniciar sesion */
+
+    .footer-ini {
+        color: white;
+        background-color: #2E3840;
+        height: 500px;
+    }
+
+    /* finaliza footer iniciar sesion */
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    /* comienza main theweeknd.html */
+
+    .dropdown {
+        margin: 40px 40px 40px 40px;
+    }
+
+    #dropdown1 {
+        margin-top: 300px;
+    }
+
+    .d-menus {
+        background-color: #2e384049;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        color: black;
+        background-color: white;
+        border-color: black;
+        width: 200px;
+        padding: 5px;
+        padding-left: 10px;
+    }
+
+    .c-dm {
+        background-color: rgb(214, 44, 44);
+        color: white;
+        margin-bottom: 300px;
+        width: 200px;
+        font-size: large;
+        border-radius: 5px;
+    }
+
+    .row {
+        margin-left: 70px;
+        display: flex;
+        justify-content: left;
+    }
+
+    .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .l-izquierdo h1 {
+        color: rgb(204, 14, 14);
+        width: 450px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+
+    .l-izquierdo h4 {
+        color: rgb(192, 9, 9);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-left: 35px;
+        width: 350px;
+        font-size: large;
+        font-weight: bolder;
+    }
+
+    .l-izquierdo p {
+        display: flex;
+        justify-content: left;
+        font-size: medium;
+        width: 350px;
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .l-izquierdo .rtw {
+        width: 340px;
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+
+    .l-izquierdo .rtw-s {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 60px;
+        margin-left: 150px;
+    }
+
+    .l-izquierdo .b-rtw {
+        background-color: rgba(190, 50, 50, 0.815);
+        border-radius: 5px;
+        width: 100px;
+        padding: 5px;
+    }
+
+    .l-derecho .t-monu {
+        width: 350px;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .iframes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .g-maps {
+        width: 180%;
+        height: 300px;
+        margin-bottom: 60px;
+    }
+
+    .v-yt {
+        width: 200%;
+        height: 450px;
+    }
+
+    /* comienza footer theweeknd.html */
+
+    .soporte p {
+        margin-bottom: 30px;
+        margin-right: 20px;
+    }
+
+    /* comienza main teatro.html */
+
+    .img-banner {
+        background-image: url(assets/img/teatro.jpg);
+        background-size: cover;
+        background-position: left;
+        height: 800px;
+        filter: blur(5px);
+    }
+
+    .img-vort {
+        height: 300px;
+        width: 80%;
+    }
+
+    .txt-banner {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 5;
+        width: 70%;
+        padding: 45px 0;
+        text-align: center;
+        border-top-left-radius: 70px;
+        border-bottom-right-radius: 70px;
+        background-color: rgba(0, 0, 0, 0.3);
+        color: #fff;
+        font-weight: bold;
+        border: 10px inset #fff;
+
+        h1 {
+            margin-top: 35px;
+        }
+    }
+
+    .main-t {
+
+        .container-fluid {
+
+            .row {
+                margin-left: 30px;
+            }
+        }
+
+    }
+
+    .b-i {
+        margin-left: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .b-i-1 {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        img {
+            height: 350px;
+            width: 150%;
+        }
+    }
+
+    .b-d {
+        margin-left: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .l-derecho-teatro {
+        width: 100%;
+        margin-top: 2px;
+        font-size: 18px;
+    }
+
+    .l-derecho-teatro h2 {
+        padding-left: 165px;
+        margin-bottom: 40px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    /* finaliza main teatro.html */
+
+    /* comienza footer teatro.html */
+
+    .redes-sociales {
+        margin-top: 25px;
+        margin-left: 65px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    /* comienza header soporte.html */
+
+    .h-s {
+        background-color: #F9DBBB;
+        height: 600px;
+    }
+
+    .busqueda-s {
+        width: 60%;
+        margin-left: 50px;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .busqueda-s h3 {
+        font-weight: bold;
+    }
+
+    .container-s {
+        height: 55px;
+        margin-top: 20px;
+        width: 143%;
+        border: 2px solid;
+        padding: 0px 0px;
+        border-radius: 50px;
+    }
+
+    .elements-container-s {
+        background-color: white;
+        border-radius: 30px;
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+    }
+
+    .s-button {
+        font-size: smaller;
+        background-color: rgba(0, 0, 0, 0.877);
+        color: white;
+        border-radius: 5px;
+        width: 80%;
+    }
+
+    .search {
+        border: none;
+        height: 100%;
+        width: 100%;
+        margin-right: 100px;
+        padding: 0px 5px;
+        border-radius: 50px;
+        font-size: 13px;
+        color: #424242;
+        font-weight: 500;
+    }
+
+    .busqueda-s p {
+        display: flex;
+        justify-content: left;
+        margin-left: 8px;
+    }
+
+    /* finaliza header soporte.html */
+
+    /* comienza main soporte.html */
+
+    #l-abajo {
+        margin-top: 150px;
+    }
+
+    .main-s {
+        .container-fluid {
+            .row {
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 100px;
+                margin-left: 2px;
+                padding-right: 200px;
+                padding-left: 2px;
+                width: 100%;
+            }
+        }
+    }
+
+    .s-i {
+        margin-left: 2px;
+        margin-right: 40px;
+        padding: 12px 20px 25px 20px;
+        border: 3px solid #000;
+        border-radius: 10px;
+        width: 200%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .s-i h4 {
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    .clientes {
+        margin-left: 60px;
+        margin-top: 150px;
+        width: 85%;
+        border: 3px solid #000;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10em;
+    }
+
+    .c-a {
+        padding-top: 150px;
+        padding-left: 60px;
+        display: flex;
+        justify-content: left;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .c-a {
+        h1 {
+            font-size: 40px;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+    }
+
+    .c-a {
+        p {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        a {
+            margin-left: 140px;
+        }
+    }
+
+    .img-c {
+        width: 90%;
+        border: 2px solid #000;
+        border-radius: 5px;
+        margin: 2px 50px 150px 35px;
+        display: flex;
+        justify-content: right;
+    }
+
+    #img-call {
+        height: 300px;
+        width: 100%;
+    }
+
+    .c-a button {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 50px;
+        background-color: #F9DBBB;
+        border-radius: 10px;
+        padding: 10px 50px 10px 50px;
+    }
+
+    /* finaliza main soporte.html */
+
+    /* comienza footer soporte.html */
+
+    .s-l-s {
+        display: flex;
+        flex-direction: column;
+
+        .soporte {
             font-size: medium;
             width: 90%;
             margin-left: 40px;
         }
     }
-    
-    .redes-sociales-s{
+
+    .redes-sociales-s {
         width: 90%;
         height: 55px;
         margin-top: 80px;
@@ -2286,8 +2621,164 @@ h2 {
         display: flex;
         justify-content: center;
     }
-    
+
     /* finaliza footer soporte.html */
+
+    /* comienza iniciar sesion */
+
+    /* comienza header iniciar sesion */
+
+    .h-ini {
+        background-color: #2e3840d5;
+    }
+
+    /* comienza main iniciar sesion */
+
+    /* lado izquierdo */
+
+    .main-ini {
+
+        background-color: #F9DBBB;
+        height: 2000px;
+    }
+
+    #row-ini {
+        margin-top: 0px;
+    }
+
+    .l-izquierdo-ini {
+        height: 70%;
+        width: 100%;
+        margin-top: 12%;
+        margin-left: -30px;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        border: 1px solid #000;
+        padding: 70px;
+    }
+
+    .l-izquierdo-ini h2 {
+        width: 60%;
+        margin: 0px 10px 30px 37%;
+        padding-left: 2px;
+        font-weight: bold;
+    }
+
+    #email, 
+    #password {
+        margin-top: 18px;
+        margin-bottom: 12px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .d-l-iz{
+        margin-left: -45px;
+    }
+
+    .recordarme {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .input-recordarme{
+        margin-left: 5px;
+        display: flex;
+        flex-direction: row;
+        p{
+            margin-top: 17px;
+            margin-left: 8px;
+        }
+    }
+    
+    #o-contraseña {
+        background-color: rgba(255, 255, 255, 0.849);
+        border: 1px solid #000;
+        margin-left: 1%;
+        margin-top: 10px;
+        font-size: small;
+        font-weight: bold;
+        padding: 10px 5px 5px 5px;
+        width: 180px;
+    }
+    
+    .b-ini {
+        background-color: white;
+        width: 65%;
+        /* padding: 10px; */
+        margin-left: 28%;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    /* lado derecho */
+
+    .l-derecho-ini {
+        height: 70%;
+        width: 100%;
+        margin-top: 12%;
+        margin-left: -30px;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        border: 1px solid #000;
+        padding: 70px;
+    }
+
+    .l-derecho-ini h2 {
+        width: 60%;
+        margin: 0px 10px 30px 40%;
+        padding-left: 2px;
+        font-weight: bold;
+    }
+
+    .e-ini {
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    #name,
+    #date,
+    #sexo,
+    #password-d,
+    #password-r {
+        margin-top: 18px;
+        margin-bottom: 12px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    #sexo-g {
+        margin-left: 25px;
+        width: 10%;
+    }
+
+    .d-l-de{
+        margin-left: -45px;
+    }
+
+    .b-ini-d {
+        margin-top: 60px;
+        background-color: white;
+        width: 65%;
+        /* padding: 10px; */
+        margin-left: 28%;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    /* comienza footer iniciar sesion */
+
+    .footer-ini {
+        color: white;
+        background-color: #2E3840;
+        height: 500px;
+    }
+
+    /* finaliza footer iniciar sesion */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -2312,7 +2803,7 @@ h2 {
         width: 30px;
     }
 
-    .h-i{
+    .h-i {
         background-image: url(assets/img/hombre-con-guitarra.jpg);
         background-size: cover;
         background-position: bottom;
@@ -2457,15 +2948,15 @@ h2 {
 
     /* comienza main theweeknd.html */
 
-    .dropdown{
+    .dropdown {
         margin: 40px 40px 40px 40px;
     }
 
-    #dropdown1{
+    #dropdown1 {
         margin-top: 300px;
     }
 
-    .d-menus{
+    .d-menus {
         background-color: #2e384049;
         height: 500px;
         width: 100%;
@@ -2473,8 +2964,8 @@ h2 {
         flex-direction: column;
         align-items: center;
     }
-    
-    .btn{
+
+    .btn {
         color: black;
         background-color: white;
         border-color: black;
@@ -2482,8 +2973,8 @@ h2 {
         padding: 5px;
         padding-left: 10px;
     }
-    
-    .c-dm{
+
+    .c-dm {
         background-color: rgb(214, 44, 44);
         color: white;
         padding: 5px 5px;
@@ -2493,80 +2984,85 @@ h2 {
         border-radius: 5px;
     }
 
-    .row{
+    .row {
         margin-left: 70px;
         display: flex;
         justify-content: left;
     }
 
-    .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s{
+    .l-izquierdo h1,
+    p,
+    .p,
+    h4,
+    .rtw,
+    .rtw-s {
         display: flex;
         justify-content: center;
         width: 500px;
     }
-    
-    .l-izquierdo h1{
+
+    .l-izquierdo h1 {
         color: rgb(204, 14, 14);
         margin-bottom: 50px;
         margin-left: 70px;
         font-weight: bolder;
     }
-    
-    .l-izquierdo h4{
+
+    .l-izquierdo h4 {
         color: rgb(192, 9, 9);
         padding-top: 30px;
         padding-bottom: 30px;
         margin-left: 90px;
         font-weight: bolder;
     }
-    
-    .l-izquierdo p{
+
+    .l-izquierdo p {
         display: flex;
         justify-content: center;
 
         margin-left: 80px;
         padding: 5px;
     }
-    
-    .l-izquierdo .rtw{
+
+    .l-izquierdo .rtw {
         margin-top: 50px;
         margin-left: 60px;
     }
-    
-    .l-izquierdo .rtw-s{
+
+    .l-izquierdo .rtw-s {
         display: flex;
         justify-content: space-evenly;
         margin-top: 60px;
         margin-left: 60px;
     }
-    
-    .l-izquierdo .b-rtw{
+
+    .l-izquierdo .b-rtw {
         background-color: rgba(190, 50, 50, 0.815);
         border-radius: 5px;
         width: 100px;
         padding: 5px;
     }
 
-    .l-derecho .t-monu{
+    .l-derecho .t-monu {
         margin-left: 60px;
         display: flex;
         align-items: start;
         flex-direction: column;
     }
-    
-    .iframes{
+
+    .iframes {
         display: flex;
         flex-direction: column;
     }
-    
-    .g-maps{
+
+    .g-maps {
         margin-left: 80px;
         width: 450px;
         height: 300px;
         margin-bottom: 60px;
     }
-    
-    .v-yt{
+
+    .v-yt {
         margin-left: 20px;
         width: 180%;
         height: 450px;
@@ -2583,7 +3079,7 @@ h2 {
         justify-content: flex-start;
     }
 
-    .soporte p{
+    .soporte p {
         width: 150px;
     }
 
@@ -2604,22 +3100,22 @@ h2 {
         margin-left: 28px;
     }
 
-    /* comienza main teatro.html */ 
+    /* comienza main teatro.html */
 
-    .img-banner{
+    .img-banner {
         background-image: url(assets/img/teatro.jpg);
         background-size: cover;
         background-position: left;
         height: 800px;
         filter: blur(5px);
     }
-    
-    .img-vort{
+
+    .img-vort {
         height: 350px;
         width: 80%;
     }
-    
-    .txt-banner{
+
+    .txt-banner {
         position: absolute;
         top: 100%;
         left: 50%;
@@ -2635,56 +3131,56 @@ h2 {
         font-weight: bold;
         border: 10px inset #fff;
 
-                h1{
-                    margin-top: 35px;
-                }
+        h1 {
+            margin-top: 35px;
+        }
 
-                p{
-                    width: 100%;
-                }
+        p {
+            width: 100%;
+        }
     }
 
-    .b-i{
+    .b-i {
         margin-left: 2px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
     }
 
-    .b-i-1{
+    .b-i-1 {
         margin-top: 20px;
         display: flex;
         flex-direction: column;
         align-items: start;
 
-        img{
+        img {
             height: 350px;
             width: 140%;
         }
 
-        p{
+        p {
             padding-right: 325px;
         }
     }
 
-    .b-d{
+    .b-d {
         margin-left: 2px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
     }
 
-    .l-derecho-teatro{
+    .l-derecho-teatro {
         width: 100%;
         margin-top: 2px;
         font-size: 18px;
 
-        p{
+        p {
             width: 90%;
         }
     }
 
-    .l-derecho-teatro h2{
+    .l-derecho-teatro h2 {
         padding-left: 250px;
         margin-bottom: 40px;
         font-weight: bold;
@@ -2692,7 +3188,7 @@ h2 {
     }
 
     /* finaliza main teatro.html */
-    
+
     /* comienza footer teatro.html */
 
     .redes-sociales {
@@ -2709,13 +3205,13 @@ h2 {
 
     /* comienza header soporte.html */
 
-    .h-s{
+    .h-s {
         background-color: #F9DBBB;
         height: 600px;
         width: 100%;
     }
 
-    .busqueda-s{
+    .busqueda-s {
         width: 90%;
         margin-left: 50px;
         margin-top: 80px;
@@ -2724,20 +3220,20 @@ h2 {
         justify-content: left;
     }
 
-    .busqueda-s h3{
+    .busqueda-s h3 {
         font-weight: bold;
     }
 
-    .container-s{
+    .container-s {
         height: 55px;
         margin-top: 20px;
         width: 90%;
-        border: 2px solid ;
+        border: 2px solid;
         padding: 0px 0px;
         border-radius: 50px;
     }
 
-    .elements-container-s{
+    .elements-container-s {
         background-color: white;
         border-radius: 30px;
         width: 100%;
@@ -2745,7 +3241,7 @@ h2 {
         vertical-align: middle;
     }
 
-    .s-button{
+    .s-button {
         font-size: smaller;
         background-color: rgba(0, 0, 0, 0.877);
         color: white;
@@ -2753,7 +3249,7 @@ h2 {
         width: 100px;
     }
 
-    .search{
+    .search {
         border: none;
         height: 100%;
         width: 40%;
@@ -2764,27 +3260,27 @@ h2 {
         color: #424242;
         font-weight: 500;
     }
-            
-    .busqueda-s p{
+
+    .busqueda-s p {
         display: flex;
         justify-content: left;
         margin-left: 8px;
     }
-    
+
     /* finaliza header soporte.html */
 
     /* comienza main soporte.html */
 
-    #l-abajo{
+    #l-abajo {
         margin-top: 150px;
     }
-            
-    .main-s{
-        .container-fluid{
-            .row{
+
+    .main-s {
+        .container-fluid {
+            .row {
                 display: flex;
                 justify-content: space-evenly;
-                margin-top: 100px; 
+                margin-top: 100px;
                 margin-left: 10px;
                 padding-right: 230px;
                 padding-left: 2px;
@@ -2793,10 +3289,10 @@ h2 {
         }
     }
 
-    .s-i{
+    .s-i {
         margin-left: 2px;
         margin-right: 20px;
-        padding: 12px 20px 25px 15px; 
+        padding: 12px 20px 25px 15px;
         border: 3px solid #000;
         border-radius: 10px;
         width: 580px;
@@ -2805,21 +3301,21 @@ h2 {
         flex-direction: column;
         align-items: flex-start;
 
-        h4{
+        h4 {
             margin-top: 20px;
             font-weight: bold;
             display: flex;
             justify-content: start;
         }
 
-        p{
+        p {
             font-size: large;
             display: flex;
             justify-content: start;
         }
     }
 
-    .clientes{
+    .clientes {
         margin-left: 60px;
         margin-top: 150px;
         width: 90%;
@@ -2830,7 +3326,7 @@ h2 {
         gap: 10em;
     }
 
-    .c-a{
+    .c-a {
         padding-top: 150px;
         padding-left: 180px;
         display: flex;
@@ -2839,26 +3335,26 @@ h2 {
         flex-direction: column;
     }
 
-    .c-a{
-        h1{
+    .c-a {
+        h1 {
             font-size: 40px;
             font-weight: bold;
             padding-left: 23px;
         }
     }
 
-    .c-a{
-        p{
+    .c-a {
+        p {
             margin-top: 20px;
             font-size: 18px;
         }
 
-        a{
+        a {
             margin-left: 150px;
         }
     }
-    
-    .img-c{
+
+    .img-c {
         width: 90%;
         border: 2px solid #000;
         border-radius: 5px;
@@ -2867,12 +3363,12 @@ h2 {
         justify-content: right;
     }
 
-    #img-call{
+    #img-call {
         height: 400px;
         width: 100%;
     }
 
-    .c-a button{
+    .c-a button {
         font-size: 18px;
         font-weight: bold;
         margin-top: 50px;
@@ -2885,19 +3381,19 @@ h2 {
 
     /* comienza footer soporte.html */
 
-    .s-l-s{
+    .s-l-s {
         margin-top: 170px;
         display: flex;
         flex-direction: row;
 
-        .soporte{
+        .soporte {
             font-size: medium;
             width: 90%;
             margin-left: 40px;
         }
     }
-    
-    .redes-sociales-s{
+
+    .redes-sociales-s {
         width: 90%;
         height: 55px;
         margin-top: 80px;
@@ -2905,8 +3401,159 @@ h2 {
         display: flex;
         justify-content: flex-end;
     }
-    
+
     /* finaliza footer soporte.html */
+
+    /* comienza iniciar sesion */
+
+    /* comienza header iniciar sesion */
+
+    .h-ini {
+        background-color: #2e3840d5;
+    }
+
+    /* comienza main iniciar sesion */
+
+    /* lado izquierdo */
+
+    .main-ini {
+
+        background-color: #F9DBBB;
+        height: 2000px;
+    }
+
+    #row-ini {
+        margin-top: 0px;
+    }
+
+    .l-izquierdo-ini {
+        height: 70%;
+        width: 100%;
+        margin-top: 12%;
+        margin-left: -30px;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        border: 1px solid #000;
+        padding: 70px;
+    }
+
+    .l-izquierdo-ini h2 {
+        width: 60%;
+        margin: 0px 10px 30px 42%;
+        padding-left: 2px;
+        font-weight: bold;
+    }
+
+    #email, #password {
+        margin-top: 18px;
+        margin-bottom: 12px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .d-l-iz{
+        margin-left: -45px;
+    }
+
+    .recordarme {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .input-recordarme{
+        margin-left: 5px;
+        display: flex;
+        flex-direction: row;
+        p{
+            margin-top: 17px;
+            margin-left: -195px;
+        }
+    }
+    
+    #o-contraseña {
+        background-color: rgba(255, 255, 255, 0.849);
+        border: 1px solid #000;
+        margin-left: 1%;
+        margin-top: 10px;
+        font-size: small;
+        font-weight: bold;
+        padding: 10px 5px 5px 5px;
+        width: 180px;
+    }
+    
+    .b-ini {
+        background-color: white;
+        width: 30%;
+        /* padding: 10px; */
+        margin-left: 40%;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    /* lado derecho */
+
+    .l-derecho-ini {
+        height: 70%;
+        width: 100%;
+        margin-top: 12%;
+        margin-left: -30px;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        border: 1px solid #000;
+        padding: 70px;
+    }
+
+    .l-derecho-ini h2 {
+        width: 60%;
+        margin: 0px 10px 30px 43%;
+        padding-left: 2px;
+        font-weight: bold;
+    }
+
+    .e-ini {
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    #name, #date, #sexo, #password-d, #password-r {
+        margin-top: 18px;
+        margin-bottom: 12px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    #sexo-g {
+        margin-left: 25px;
+        width: 10%;
+    }
+
+    .d-l-de{
+        margin-left: -45px;
+    }
+
+    .b-ini-d {
+        margin-top: 60px;
+        background-color: white;
+        width: 30%;
+        /* padding: 10px; */
+        margin-left: 40%;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    /* comienza footer iniciar sesion */
+
+    .footer-ini {
+        color: white;
+        background-color: #2E3840;
+        height: 500px;
+    }
+
+    /* finaliza footer iniciar sesion */
 
 }
 
@@ -2929,7 +3576,7 @@ h2 {
         width: 30px;
     }
 
-    .h-i{
+    .h-i {
         background-image: url(assets/img/hombre-con-guitarra.jpg);
         background-size: cover;
         background-position: bottom;
@@ -3071,22 +3718,22 @@ h2 {
         margin-top: 50px;
         margin-left: 28px;
     }
-    
+
     /* comienza main theweeknd.html */
-    
-    .dropdown{
+
+    .dropdown {
         margin: 40px 40px 40px 40px;
     }
-    
-    .d-menus{
+
+    .d-menus {
         background-color: #2e384049;
         height: 140px;
         width: 100%;
         display: flex;
         justify-content: center;
     }
-    
-    .btn{
+
+    .btn {
         color: black;
         background-color: white;
         border-color: black;
@@ -3094,8 +3741,8 @@ h2 {
         padding: 15px;
         padding-left: 10px;
     }
-    
-    .c-dm{
+
+    .c-dm {
         background-color: rgb(214, 44, 44);
         color: white;
         margin: 40px 40px 40px 40px;
@@ -3103,90 +3750,95 @@ h2 {
         font-size: large;
         border-radius: 5px;
     }
-    
-    .l-izquierdo h1, p, .p, h4, .rtw, .rtw-s{
+
+    .l-izquierdo h1,
+    p,
+    .p,
+    h4,
+    .rtw,
+    .rtw-s {
         display: flex;
         justify-content: center;
     }
-    
-    .l-izquierdo h1{
+
+    .l-izquierdo h1 {
         color: rgb(204, 14, 14);
         margin-bottom: 50px;
         font-weight: bolder;
     }
-    
-    .l-izquierdo h4{
+
+    .l-izquierdo h4 {
         color: rgb(192, 9, 9);
         padding-top: 30px;
         padding-bottom: 30px;
         font-size: large;
         font-weight: bolder;
     }
-    
-    .l-izquierdo p{
+
+    .l-izquierdo p {
         display: flex;
         justify-content: stretch;
         margin-left: 70px;
         margin-right: 60px;
         padding: 5px;
     }
-    
-    .l-izquierdo .rtw{
+
+    .l-izquierdo .rtw {
         margin-top: 50px;
     }
-    
-    .l-izquierdo .rtw-s{
+
+    .l-izquierdo .rtw-s {
         display: flex;
         justify-content: space-evenly;
         margin-top: 60px;
     }
-    
-    .l-izquierdo .b-rtw{
+
+    .l-izquierdo .b-rtw {
         background-color: rgba(190, 50, 50, 0.815);
         border-radius: 5px;
         width: 110px;
         padding: 5px;
     }
-    
-    
-    .l-derecho .t-monu{
+
+
+    .l-derecho .t-monu {
         display: flex;
         align-items: start;
         flex-direction: column;
     }
-    
-    .iframes{
+
+    .iframes {
         display: flex;
         flex-direction: column;
     }
-    
-    .g-maps{
+
+    .g-maps {
         width: 500px;
         height: 350px;
         margin-bottom: 60px;
     }
-    
-    .v-yt{
+
+    .v-yt {
         width: 110%;
         height: 450px;
     }
 
-    /* comienza main teatro.html */ 
+    /* comienza main teatro.html */
 
-    .img-banner{
+    .img-banner {
         background-image: url(assets/img/teatro.jpg);
         background-size: cover;
         background-position: left;
         height: 800px;
         filter: blur(5px);
     }
-    
-    .img-vort{
+
+    .img-vort {
         height: 350px;
         width: 80%;
     }
-    
-    .txt-banner{
+
+    .txt-banner {
         position: absolute;
         top: 100%;
         left: 50%;
@@ -3202,57 +3854,57 @@ h2 {
         font-weight: bold;
         border: 10px inset #fff;
 
-                h1{
-                    margin-top: 35px;
-                }
+        h1 {
+            margin-top: 35px;
+        }
 
-                p{
-                    width: 100%;
-                }
+        p {
+            width: 100%;
+        }
     }
 
-    .b-i{
+    .b-i {
         margin-left: 2px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
     }
 
-    .b-i-1{
+    .b-i-1 {
         margin-top: 20px;
         display: flex;
         flex-direction: column;
         align-items: start;
 
-        img{
+        img {
             height: 350px;
             width: 105%;
         }
 
-        p{
+        p {
             padding-right: 325px;
         }
     }
 
-    .b-d{
+    .b-d {
         margin-left: 2px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
     }
 
-    .l-derecho-teatro{
+    .l-derecho-teatro {
         padding-left: 55px;
         width: 100%;
         margin-top: 2px;
         font-size: 18px;
 
-        p{
+        p {
             width: 100%;
         }
     }
 
-    .l-derecho-teatro h2{
+    .l-derecho-teatro h2 {
         padding-left: 320px;
         margin-bottom: 40px;
         font-weight: bold;
@@ -3260,7 +3912,7 @@ h2 {
     }
 
     /* finaliza main teatro.html */
-    
+
     /* comienza footer teatro.html */
 
     .redes-sociales {
@@ -3273,12 +3925,12 @@ h2 {
 
     /* comienza header soporte.html */
 
-    .h-s{
+    .h-s {
         background-color: #F9DBBB;
         height: 600px;
     }
 
-    .busqueda-s{
+    .busqueda-s {
         width: 60%;
         margin-left: 50px;
         margin-top: 80px;
@@ -3287,20 +3939,20 @@ h2 {
         justify-content: left;
     }
 
-    .busqueda-s h3{
+    .busqueda-s h3 {
         font-weight: bold;
     }
 
-    .container-s{
+    .container-s {
         height: 55px;
         margin-top: 20px;
         width: 142%;
-        border: 2px solid ;
+        border: 2px solid;
         padding: 0px 0px;
         border-radius: 50px;
     }
 
-    .elements-container-s{
+    .elements-container-s {
         background-color: white;
         border-radius: 30px;
         width: 100%;
@@ -3308,7 +3960,7 @@ h2 {
         vertical-align: middle;
     }
 
-    .s-button{
+    .s-button {
         font-size: smaller;
         background-color: rgba(0, 0, 0, 0.877);
         color: white;
@@ -3316,7 +3968,7 @@ h2 {
         width: 120px;
     }
 
-    .search{
+    .search {
         border: none;
         height: 100%;
         width: 100%;
@@ -3327,27 +3979,27 @@ h2 {
         color: #424242;
         font-weight: 500;
     }
-            
-    .busqueda-s p{
+
+    .busqueda-s p {
         display: flex;
         justify-content: left;
         margin-left: 8px;
     }
-    
+
     /* finaliza header soporte.html */
 
     /* comienza main soporte.html */
 
-    #l-abajo{
+    #l-abajo {
         margin-top: 150px;
     }
-            
-    .main-s{
-        .container-fluid{
-            .row{
+
+    .main-s {
+        .container-fluid {
+            .row {
                 display: flex;
                 justify-content: space-evenly;
-                margin-top: 100px; 
+                margin-top: 100px;
                 margin-left: 10px;
                 padding-right: 230px;
                 padding-left: 20px;
@@ -3356,10 +4008,10 @@ h2 {
         }
     }
 
-    .s-i{
+    .s-i {
         margin-left: 2px;
         margin-right: 20px;
-        padding: 12px 20px 25px 15px; 
+        padding: 12px 20px 25px 15px;
         border: 3px solid #000;
         border-radius: 10px;
         width: 700px;
@@ -3368,21 +4020,21 @@ h2 {
         flex-direction: column;
         align-items: flex-start;
 
-        h4{
+        h4 {
             margin-top: 20px;
             font-weight: bold;
             display: flex;
             justify-content: start;
         }
 
-        p{
+        p {
             font-size: larger;
             display: flex;
             justify-content: start;
         }
     }
 
-    .clientes{
+    .clientes {
         margin-left: 60px;
         margin-top: 150px;
         width: 90%;
@@ -3394,7 +4046,7 @@ h2 {
         gap: 10em;
     }
 
-    .c-a{
+    .c-a {
         width: 100%;
         padding-top: 150px;
         padding-left: 200px;
@@ -3403,25 +4055,25 @@ h2 {
         align-items: start;
         flex-direction: column;
 
-        h1{
+        h1 {
             font-size: 50px;
             font-weight: bold;
             padding-left: 90px;
         }
 
-        p{
+        p {
             margin-left: 23px;
             margin-top: 20px;
             font-size: 25px;
         }
 
-        a{
+        a {
             margin-left: 260px;
         }
     }
 
-    
-    .img-c{
+
+    .img-c {
         width: 80%;
         border: 2px solid #000;
         border-radius: 5px;
@@ -3430,12 +4082,12 @@ h2 {
         justify-content: right;
     }
 
-    #img-call{
+    #img-call {
         height: 600px;
         width: 100%;
     }
 
-    .c-a button{
+    .c-a button {
         font-size: 18px;
         font-weight: bold;
         margin-top: 50px;
@@ -3448,19 +4100,19 @@ h2 {
 
     /* comienza footer soporte.html */
 
-    .s-l-s{
+    .s-l-s {
         margin-top: 170px;
         display: flex;
         flex-direction: row;
 
-        .soporte{
+        .soporte {
             font-size: medium;
             width: 90%;
             margin-left: 40px;
         }
     }
-    
-    .redes-sociales-s{
+
+    .redes-sociales-s {
         width: 90%;
         height: 55px;
         margin-top: 80px;
@@ -3468,6 +4120,159 @@ h2 {
         display: flex;
         justify-content: flex-end;
     }
-    
+
     /* finaliza footer soporte.html */
+
+    /*comienza iniciarsesion.html */
+
+    /* comienza header iniciar sesion */
+
+    .h-ini {
+        background-color: #2e3840d5;
+    }
+
+    /* comienza main iniciar sesion */
+
+    /* lado izquierdo */
+
+    .main-ini {
+
+        background-color: #F9DBBB;
+        height: 2000px;
+    }
+
+    #row-ini {
+        margin-top: 0px;
+    }
+
+    .l-izquierdo-ini {
+        height: 70%;
+        width: 100%;
+        margin-top: 12%;
+        margin-left: -30px;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        border: 1px solid #000;
+        padding: 70px;
+    }
+
+    .l-izquierdo-ini h2 {
+        width: 60%;
+        margin: 0px 10px 30px 27%;
+        padding-left: 2px;
+        font-weight: bold;
+    }
+
+    #email, #password {
+        margin-top: 18px;
+        margin-bottom: 12px;
+        width: 80%;
+        border-radius: 20px;
+    }
+
+    .d-l-iz{
+        margin-left: 180px;
+    }
+
+    .recordarme {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .input-recordarme{
+        margin-left: 5px;
+        display: flex;
+        flex-direction: row;
+        p{
+            margin-top: 17px;
+            margin-left: 10px;
+        }
+    }
+    
+    #o-contraseña {
+        background-color: rgba(255, 255, 255, 0.849);
+        border: 1px solid #000;
+        margin-left: 37%;
+        margin-top: 10px;
+        font-size: small;
+        font-weight: bold;
+        padding: 10px 5px 5px 5px;
+        width: 180px;
+    }
+    
+    .b-ini {
+        background-color: white;
+        width: 30%;
+        /* padding: 10px; */
+        margin-left: 26%;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    /* lado derecho */
+
+    .l-derecho-ini {
+        height: 70%;
+        width: 100%;
+        margin-top: 12%;
+        margin-left: -30px;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        border: 1px solid #000;
+        padding: 70px;
+    }
+
+    .l-derecho-ini h2 {
+        width: 60%;
+        margin: 0px 10px 30px 29%;
+        padding-left: 2px;
+        font-weight: bold;
+    }
+
+    .e-ini {
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    #name, #date, #sexo, #password-d, #password-r {
+        margin-top: 18px;
+        margin-bottom: 12px;
+        width: 80%;
+        border-radius: 20px;
+    }
+
+    #sexo-g {
+        margin-left: 15px;
+        width: 7%;
+    }
+
+    .d-l-de{
+        margin-left: 180px;
+    }
+
+    .b-ini-d {
+        margin-top: 60px;
+        background-color: white;
+        width: 30%;
+        /* padding: 10px; */
+        margin-left: 25%;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    /* comienza footer iniciar sesion */
+
+    .footer-ini {
+        color: white;
+        background-color: #2E3840;
+        height: 500px;
+    }
+
+    /* finaliza footer iniciar sesion */
+
+
 }
