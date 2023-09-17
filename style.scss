@@ -36,6 +36,11 @@ $color: rgb(202, 7, 7);
 
 .nav-link {
     color: white !important;
+    transition: all 0.1s;
+}
+
+.nav-link:hover{
+    color: $color !important;
 }
 
 .ritmolive {
