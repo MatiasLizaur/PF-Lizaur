@@ -371,6 +371,12 @@ h4,
 .img-vort {
   height: 300px;
   width: 400px;
+  transform: rotateX(0deg);
+  transition: 4s;
+}
+
+.img-vort:hover {
+  transform: rotateX(360deg);
 }
 
 .txt-banner {
